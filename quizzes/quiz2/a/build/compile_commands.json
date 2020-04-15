@@ -1,0 +1,27 @@
+[
+{
+  "directory": "/home/user/git/pfms-2020a-esteban-andrade/quizzes/quiz2/a/build",
+  "command": "/usr/bin/c++      -std=c++11 -g   -o CMakeFiles/shapes.dir/main.cpp.o -c /home/user/git/pfms-2020a-esteban-andrade/quizzes/quiz2/a/main.cpp",
+  "file": "/home/user/git/pfms-2020a-esteban-andrade/quizzes/quiz2/a/main.cpp"
+},
+{
+  "directory": "/home/user/git/pfms-2020a-esteban-andrade/quizzes/quiz2/a/build",
+  "command": "/usr/bin/c++      -std=c++11 -g   -o CMakeFiles/shapes.dir/shape.cpp.o -c /home/user/git/pfms-2020a-esteban-andrade/quizzes/quiz2/a/shape.cpp",
+  "file": "/home/user/git/pfms-2020a-esteban-andrade/quizzes/quiz2/a/shape.cpp"
+},
+{
+  "directory": "/home/user/git/pfms-2020a-esteban-andrade/quizzes/quiz2/a/build",
+  "command": "/usr/bin/c++      -std=c++11 -g   -o CMakeFiles/shapes.dir/rectangle.cpp.o -c /home/user/git/pfms-2020a-esteban-andrade/quizzes/quiz2/a/rectangle.cpp",
+  "file": "/home/user/git/pfms-2020a-esteban-andrade/quizzes/quiz2/a/rectangle.cpp"
+},
+{
+  "directory": "/home/user/git/pfms-2020a-esteban-andrade/quizzes/quiz2/a/build",
+  "command": "/usr/bin/c++      -std=c++11 -g   -o CMakeFiles/shapes.dir/triangle.cpp.o -c /home/user/git/pfms-2020a-esteban-andrade/quizzes/quiz2/a/triangle.cpp",
+  "file": "/home/user/git/pfms-2020a-esteban-andrade/quizzes/quiz2/a/triangle.cpp"
+},
+{
+  "directory": "/home/user/git/pfms-2020a-esteban-andrade/quizzes/quiz2/a/build",
+  "command": "/usr/bin/c++      -std=c++11 -g   -o CMakeFiles/shapes.dir/circle.cpp.o -c /home/user/git/pfms-2020a-esteban-andrade/quizzes/quiz2/a/circle.cpp",
+  "file": "/home/user/git/pfms-2020a-esteban-andrade/quizzes/quiz2/a/circle.cpp"
+}
+]

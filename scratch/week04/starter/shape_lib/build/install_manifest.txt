@@ -1,0 +1,5 @@
+/usr/local/lib/libshapes_library.a
+/usr/local/include/circle.h
+/usr/local/include/rectangle.h
+/usr/local/include/shape.h
+/usr/local/include/triangle.h

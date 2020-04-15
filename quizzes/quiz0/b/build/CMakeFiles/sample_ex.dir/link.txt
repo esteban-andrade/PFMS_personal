@@ -1,0 +1,1 @@
+/usr/bin/c++    -std=c++11   CMakeFiles/sample_ex.dir/main.cpp.o CMakeFiles/sample_ex.dir/sample.cpp.o  -o sample_ex -rdynamic 

@@ -1,0 +1,46 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/user/git/pfms-2020a-esteban-andrade/quizzes/quiz2/b/car.cpp
+car.h
+/home/user/git/pfms-2020a-esteban-andrade/quizzes/quiz2/b/car.h
+cmath
+-
+iostream
+-
+chrono
+-
+
+/home/user/git/pfms-2020a-esteban-andrade/quizzes/quiz2/b/car.h
+string
+-
+controllerinterface.h
+/home/user/git/pfms-2020a-esteban-andrade/quizzes/quiz2/b/controllerinterface.h
+chrono
+-
+
+/home/user/git/pfms-2020a-esteban-andrade/quizzes/quiz2/b/controllerinterface.cpp
+controllerinterface.h
+/home/user/git/pfms-2020a-esteban-andrade/quizzes/quiz2/b/controllerinterface.h
+
+/home/user/git/pfms-2020a-esteban-andrade/quizzes/quiz2/b/controllerinterface.h
+string
+-
+
+/home/user/git/pfms-2020a-esteban-andrade/quizzes/quiz2/b/main.cpp
+car.h
+/home/user/git/pfms-2020a-esteban-andrade/quizzes/quiz2/b/car.h
+iostream
+-
+thread
+-
+vector
+-
+chrono
+-
+

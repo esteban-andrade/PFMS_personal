@@ -1,0 +1,1 @@
+/usr/bin/c++    -std=c++11   CMakeFiles/quiz_2b.dir/main.cpp.o CMakeFiles/quiz_2b.dir/car.cpp.o CMakeFiles/quiz_2b.dir/controllerinterface.cpp.o  -o quiz_2b -rdynamic 

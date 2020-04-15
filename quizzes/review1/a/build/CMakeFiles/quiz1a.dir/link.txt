@@ -1,0 +1,1 @@
+/usr/bin/c++    -std=c++11   CMakeFiles/quiz1a.dir/main.cpp.o CMakeFiles/quiz1a.dir/person.cpp.o  -o quiz1a -rdynamic 

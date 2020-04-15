@@ -1,0 +1,65 @@
+/* vector way
+void printVector(std::vector<double> &x, int xSize)
+{
+    for (int i = 0; i < x.size(); i++)
+    {
+        std::cout << "x[" << i << "] = " << x.at(i) << std::endl;
+    }
+}
+/ function to populate array with random numbers
+void populateWithRandomNumbers(std::vector<double> &num_array, int &array_size, int num_elements)
+{
+
+    //we select a seed for the random generator, so it is truly random (neve the same seed)
+    unsigned int seed = std::chrono::system_clock::now().time_since_epoch().count();
+    std::default_random_engine generator(seed);
+    // create a uniform distribution between 0 and 10 and draw elements from it
+    std::uniform_real_distribution<> value_distribution(0, 10.0);
+    // generate the required amount of random numbers
+    for (int i = array_size; i < array_size + num_elements; i++)
+    {
+        //num_array[i] = value_distribution(generator);
+        double randomizer = value_distribution(generator);
+        num_array.push_back(randomizer);
+    }
+    //let's update the array size
+    array_size += num_elements;
+}
+int main()
+{
+
+    // Create an array x of doubles with 10 elements
+    int arraySize = 10;
+    // Populate the elements of array on creating of array, each element [i] has value i (INITIALISER LIST)
+   
+    //std::vector<double> x = {0.0, 1.0, 2.0, 3.0, 4.0, 5.0, 6.0, 7.0, 8.0, 9.0};
+    // Print array
+   
+
+    //printVector(x, arraySize);
+
+    // Ask user to specify how many additional numbers are to be generated
+    int num;
+    std::cout << "How many random elements do you wish to generate : ";
+    while (!(std::cin >> num))
+    {
+        std::cin.clear();
+        std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
+        std::cout << "Invalid input, Try again: ";
+    }
+
+    // create a  new array with new allocation of memory. This will fix the segmentation error. Another method would be to use vectors instead of arrays.
+    
+
+    // Populate array with random numbers
+    populateWithRandomNumbers(x, arraySize, num);
+
+    std::cout << arraySize << "array size <-" << num << "num" << std::endl;
+
+    // Print array
+   
+    //printVector(x, arraySize);
+    // Main function should return an integer
+    return 0;
+}
+*/

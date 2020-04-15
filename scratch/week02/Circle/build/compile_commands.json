@@ -1,0 +1,12 @@
+[
+{
+  "directory": "/home/user/git/pfms-2020a-esteban-andrade/scratch/week02/Circle/build",
+  "command": "/usr/bin/c++      -std=c++11 -g   -o CMakeFiles/Circle_eg.dir/Circle_main.cpp.o -c /home/user/git/pfms-2020a-esteban-andrade/scratch/week02/Circle/Circle_main.cpp",
+  "file": "/home/user/git/pfms-2020a-esteban-andrade/scratch/week02/Circle/Circle_main.cpp"
+},
+{
+  "directory": "/home/user/git/pfms-2020a-esteban-andrade/scratch/week02/Circle/build",
+  "command": "/usr/bin/c++      -std=c++11 -g   -o CMakeFiles/Circle_eg.dir/Circle.cpp.o -c /home/user/git/pfms-2020a-esteban-andrade/scratch/week02/Circle/Circle.cpp",
+  "file": "/home/user/git/pfms-2020a-esteban-andrade/scratch/week02/Circle/Circle.cpp"
+}
+]

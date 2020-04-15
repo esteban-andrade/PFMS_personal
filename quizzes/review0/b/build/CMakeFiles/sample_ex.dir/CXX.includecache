@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/user/git/pfms-2020a-esteban-andrade/quizzes/review0/b/main.cpp
+sample.h
+/home/user/git/pfms-2020a-esteban-andrade/quizzes/review0/b/sample.h
+iostream
+-
+
+/home/user/git/pfms-2020a-esteban-andrade/quizzes/review0/b/sample.cpp
+sample.h
+/home/user/git/pfms-2020a-esteban-andrade/quizzes/review0/b/sample.h
+
+/home/user/git/pfms-2020a-esteban-andrade/quizzes/review0/b/sample.h
+iostream
+-
+cmath
+-
+

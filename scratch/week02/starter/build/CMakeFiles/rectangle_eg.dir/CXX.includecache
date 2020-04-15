@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/user/git/pfms-2020a-esteban-andrade/scratch/week02/starter/rectangle.cpp
+rectangle.h
+/home/user/git/pfms-2020a-esteban-andrade/scratch/week02/starter/rectangle.h
+
+/home/user/git/pfms-2020a-esteban-andrade/scratch/week02/starter/rectangle.h
+
+/home/user/git/pfms-2020a-esteban-andrade/scratch/week02/starter/rectangle_main.cpp
+rectangle.h
+/home/user/git/pfms-2020a-esteban-andrade/scratch/week02/starter/rectangle.h
+iostream
+-
+

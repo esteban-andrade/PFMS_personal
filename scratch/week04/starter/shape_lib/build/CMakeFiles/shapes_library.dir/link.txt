@@ -1,0 +1,2 @@
+/usr/bin/ar qc libshapes_library.a  CMakeFiles/shapes_library.dir/circle.cpp.o CMakeFiles/shapes_library.dir/rectangle.cpp.o CMakeFiles/shapes_library.dir/shape.cpp.o CMakeFiles/shapes_library.dir/triangle.cpp.o
+/usr/bin/ranlib libshapes_library.a

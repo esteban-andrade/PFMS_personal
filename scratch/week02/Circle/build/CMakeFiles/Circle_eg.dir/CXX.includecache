@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/user/git/pfms-2020a-esteban-andrade/scratch/week02/Circle/Circle.cpp
+Circle.h
+/home/user/git/pfms-2020a-esteban-andrade/scratch/week02/Circle/Circle.h
+cmath
+-
+
+/home/user/git/pfms-2020a-esteban-andrade/scratch/week02/Circle/Circle.h
+
+/home/user/git/pfms-2020a-esteban-andrade/scratch/week02/Circle/Circle_main.cpp
+Circle.h
+/home/user/git/pfms-2020a-esteban-andrade/scratch/week02/Circle/Circle.h
+iostream
+-
+iomanip
+-
+vector
+-
+random
+-
+chrono
+-
+

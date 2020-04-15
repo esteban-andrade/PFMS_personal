@@ -1,0 +1,1 @@
+/usr/bin/c++    -std=c++11   CMakeFiles/Tutorial01.dir/Tutorial01.cpp.o  -o Tutorial01 -rdynamic 

@@ -1,0 +1,3 @@
+/home/user/git/pfms-2020a-esteban-andrade/scratch/week02/Circle/build/CMakeFiles/rebuild_cache.dir
+/home/user/git/pfms-2020a-esteban-andrade/scratch/week02/Circle/build/CMakeFiles/edit_cache.dir
+/home/user/git/pfms-2020a-esteban-andrade/scratch/week02/Circle/build/CMakeFiles/Circle_eg.dir

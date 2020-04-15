@@ -1,0 +1,1 @@
+/usr/bin/g++-5    -std=c++11 -g   CMakeFiles/monochrome_camera.dir/camera_main.cpp.o CMakeFiles/monochrome_camera.dir/camera.cpp.o  -o monochrome_camera -rdynamic 

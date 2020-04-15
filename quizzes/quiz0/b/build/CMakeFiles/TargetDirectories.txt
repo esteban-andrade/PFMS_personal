@@ -1,0 +1,3 @@
+/home/user/git/pfms-2020a-esteban-andrade/quizzes/quiz0/b/build/CMakeFiles/edit_cache.dir
+/home/user/git/pfms-2020a-esteban-andrade/quizzes/quiz0/b/build/CMakeFiles/rebuild_cache.dir
+/home/user/git/pfms-2020a-esteban-andrade/quizzes/quiz0/b/build/CMakeFiles/sample_ex.dir

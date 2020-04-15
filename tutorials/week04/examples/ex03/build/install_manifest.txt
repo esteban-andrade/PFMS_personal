@@ -1,0 +1,6 @@
+/home/user/my_library/lib/libshapes.a
+/home/user/my_library/include/rectangle.h
+/home/user/my_library/include/circle.h
+/home/user/my_library/include/triangle.h
+/home/user/my_library/include/shape.h
+/home/user/my_library/include/line.h

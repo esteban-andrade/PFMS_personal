@@ -1,0 +1,12 @@
+[
+{
+  "directory": "/home/user/git/pfms-2020a-esteban-andrade/scratch/Assigment 1/build",
+  "command": "/usr/bin/g++-5      -std=c++11 -g   -o CMakeFiles/monochrome_camera.dir/camera_main.cpp.o -c \"/home/user/git/pfms-2020a-esteban-andrade/scratch/Assigment 1/camera_main.cpp\"",
+  "file": "/home/user/git/pfms-2020a-esteban-andrade/scratch/Assigment 1/camera_main.cpp"
+},
+{
+  "directory": "/home/user/git/pfms-2020a-esteban-andrade/scratch/Assigment 1/build",
+  "command": "/usr/bin/g++-5      -std=c++11 -g   -o CMakeFiles/monochrome_camera.dir/camera.cpp.o -c \"/home/user/git/pfms-2020a-esteban-andrade/scratch/Assigment 1/camera.cpp\"",
+  "file": "/home/user/git/pfms-2020a-esteban-andrade/scratch/Assigment 1/camera.cpp"
+}
+]
