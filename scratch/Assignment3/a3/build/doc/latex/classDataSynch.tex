@@ -1,0 +1,104 @@
+\hypertarget{classDataSynch}{}\section{Data\+Synch Class Reference}
+\label{classDataSynch}\index{Data\+Synch@{Data\+Synch}}
+
+
+The \hyperlink{classDataSynch}{Data\+Synch} will allow to synchronize all the data and objects. This allow to interconnect multiple classes and ensire that the data is protected and secured.  
+
+
+
+
+{\ttfamily \#include $<$Data\+Synch.\+h$>$}
+
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classDataSynch_aadc09c8aed984237b5e672eab7dfc5cd}\label{classDataSynch_aadc09c8aed984237b5e672eab7dfc5cd}} 
+\hyperlink{classDataSynch_aadc09c8aed984237b5e672eab7dfc5cd}{Data\+Synch} ()
+\begin{DoxyCompactList}\small\item\em Construct a new Data Synch object that will be used for synchronization. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classDataSynch_a5c6029e73866f805e08c98adcf6a704f}\label{classDataSynch_a5c6029e73866f805e08c98adcf6a704f}} 
+\hyperlink{classDataSynch_a5c6029e73866f805e08c98adcf6a704f}{$\sim$\+Data\+Synch} ()
+\begin{DoxyCompactList}\small\item\em Destroy the Data Synch object. \end{DoxyCompactList}\item 
+void \hyperlink{classDataSynch_a1d6aa1bf31e4703cdcc5bcf3d8eed33b}{data\+Thread} (\hyperlink{classNavigation}{Navigation} \&, const std\+::shared\+\_\+ptr$<$ \hyperlink{classSimulator}{Simulator} $>$ \&, \hyperlink{structPose}{Pose})
+\begin{DoxyCompactList}\small\item\em The Data thread will aid to contain all the data that will be used for navigation. \end{DoxyCompactList}\item 
+void \hyperlink{classDataSynch_a2f50b744f9f8b3e98b226d1227b0d217}{control\+Thread} (const std\+::shared\+\_\+ptr$<$ \hyperlink{classSimulator}{Simulator} $>$ \&, \hyperlink{classNavigation}{Navigation} \&, \hyperlink{classScanner}{Scanner} \&, \hyperlink{classDataSynch}{Data\+Synch} \&)
+\begin{DoxyCompactList}\small\item\em The control thread will control all the data that is obtained from all the sensor in order to estimate the pose of the bogie in the future and wil notify that the data is ready. \end{DoxyCompactList}\item 
+void \hyperlink{classDataSynch_a18d67221566d1882c8677cb11813f6ab}{process\+Thread} (\hyperlink{classScanner}{Scanner} \&)
+\begin{DoxyCompactList}\small\item\em The proecess thread will allow to keep track of the bogie and pick a new one everytime one is destroyed. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+The \hyperlink{classDataSynch}{Data\+Synch} will allow to synchronize all the data and objects. This allow to interconnect multiple classes and ensire that the data is protected and secured. 
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{classDataSynch_a2f50b744f9f8b3e98b226d1227b0d217}\label{classDataSynch_a2f50b744f9f8b3e98b226d1227b0d217}} 
+\index{Data\+Synch@{Data\+Synch}!control\+Thread@{control\+Thread}}
+\index{control\+Thread@{control\+Thread}!Data\+Synch@{Data\+Synch}}
+\subsubsection{\texorpdfstring{control\+Thread()}{controlThread()}}
+{\footnotesize\ttfamily void Data\+Synch\+::control\+Thread (\begin{DoxyParamCaption}\item[{const std\+::shared\+\_\+ptr$<$ \hyperlink{classSimulator}{Simulator} $>$ \&}]{sim,  }\item[{\hyperlink{classNavigation}{Navigation} \&}]{navigate,  }\item[{\hyperlink{classScanner}{Scanner} \&}]{scan,  }\item[{\hyperlink{classDataSynch}{Data\+Synch} \&}]{data }\end{DoxyParamCaption})}
+
+
+
+The control thread will control all the data that is obtained from all the sensor in order to estimate the pose of the bogie in the future and wil notify that the data is ready. 
+
+\begin{DoxyNote}{Note}
+There is a debug here out 
+
+The pose will only be 4 intances of poses in the render and this will get refreshed over time 
+\end{DoxyNote}
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\tt in}  & {\em std\+::shared\+\_\+ptr$<$\+Simulator$>$} & in order to get data in realtime \\
+\hline
+\mbox{\tt in}  & {\em \hyperlink{classNavigation}{Navigation}} & object that will allow to get information regarding the current status of the aircraft \\
+\hline
+\mbox{\tt in}  & {\em \hyperlink{classScanner}{Scanner}} & object will allow to get data from all the sensor and estime the future pose \\
+\hline
+\mbox{\tt in}  & {\em \hyperlink{classDataSynch}{Data\+Synch}} & object will allow to synchronize all the data \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classDataSynch_a1d6aa1bf31e4703cdcc5bcf3d8eed33b}\label{classDataSynch_a1d6aa1bf31e4703cdcc5bcf3d8eed33b}} 
+\index{Data\+Synch@{Data\+Synch}!data\+Thread@{data\+Thread}}
+\index{data\+Thread@{data\+Thread}!Data\+Synch@{Data\+Synch}}
+\subsubsection{\texorpdfstring{data\+Thread()}{dataThread()}}
+{\footnotesize\ttfamily void Data\+Synch\+::data\+Thread (\begin{DoxyParamCaption}\item[{\hyperlink{classNavigation}{Navigation} \&}]{navigate,  }\item[{const std\+::shared\+\_\+ptr$<$ \hyperlink{classSimulator}{Simulator} $>$ \&}]{sim,  }\item[{\hyperlink{structPose}{Pose}}]{friendly }\end{DoxyParamCaption})}
+
+
+
+The Data thread will aid to contain all the data that will be used for navigation. 
+
+\begin{DoxyNote}{Note}
+Will control the data of navigation and pure pursuit algorithm 
+\end{DoxyNote}
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\tt in}  & {\em \hyperlink{classNavigation}{Navigation}} & object that will control the orientation \\
+\hline
+\mbox{\tt in}  & {\em std\+::shared\+\_\+ptr$<$\+Simulator$>$} & simulator point to keep getting dara \\
+\hline
+\mbox{\tt in}  & {\em \hyperlink{structPose}{Pose}} & to get friendly pose \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classDataSynch_a18d67221566d1882c8677cb11813f6ab}\label{classDataSynch_a18d67221566d1882c8677cb11813f6ab}} 
+\index{Data\+Synch@{Data\+Synch}!process\+Thread@{process\+Thread}}
+\index{process\+Thread@{process\+Thread}!Data\+Synch@{Data\+Synch}}
+\subsubsection{\texorpdfstring{process\+Thread()}{processThread()}}
+{\footnotesize\ttfamily void Data\+Synch\+::process\+Thread (\begin{DoxyParamCaption}\item[{\hyperlink{classScanner}{Scanner} \&}]{scanner }\end{DoxyParamCaption})}
+
+
+
+The proecess thread will allow to keep track of the bogie and pick a new one everytime one is destroyed. 
+
+\begin{DoxyNote}{Note}
+once the process is completed the process will be repeated 
+\end{DoxyNote}
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\tt in}  & {\em \hyperlink{classScanner}{Scanner}} & object that will aid to get the scan results in real time \\
+\hline
+\end{DoxyParams}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+/home/esteban/git/pfms-\/2020a-\/esteban-\/andrade/scratch/\+Assignment3/a3/\hyperlink{DataSynch_8h}{Data\+Synch.\+h}\item 
+/home/esteban/git/pfms-\/2020a-\/esteban-\/andrade/scratch/\+Assignment3/a3/Data\+Synch.\+cpp\end{DoxyCompactItemize}

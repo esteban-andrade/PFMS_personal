@@ -1,0 +1,5 @@
+<map id="path_generation.h" name="path_generation.h">
+<area shape="rect" id="node2" href="$path__generation_8cpp.html" title="Class that will analyse the given poses and navigate the robot. " alt="" coords="5,80,144,107"/>
+<area shape="rect" id="node3" href="$path__selection__main_8cpp.html" title="Main function used to start the node path_follow_select_path. This will allow to select the points in..." alt="" coords="169,80,335,107"/>
+<area shape="rect" id="node4" href="$plot__path__main_8cpp.html" title="Main function that will start the node path_follow_draw_path. This node will have 3 threads for multi..." alt="" coords="359,80,494,107"/>
+</map>

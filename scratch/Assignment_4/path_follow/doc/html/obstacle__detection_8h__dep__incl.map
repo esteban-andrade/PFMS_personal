@@ -1,0 +1,8 @@
+<map id="obstacle_detection.h" name="obstacle_detection.h">
+<area shape="rect" id="node2" href="$obstacle__detection_8cpp.html" title="Class that will analyse if there are obstacles with in the given conditions. " alt="" coords="9,80,165,107"/>
+<area shape="rect" id="node3" href="$path__generation_8h.html" title="This Class was used with multiple intention that include Receive the Poses. Analyse the poses and nav..." alt="" coords="189,80,315,107"/>
+<area shape="rect" id="node7" href="$utest_8cpp.html" title="Unit test. " alt="" coords="339,80,415,107"/>
+<area shape="rect" id="node4" href="$path__generation_8cpp.html" title="Class that will analyse the given poses and navigate the robot. " alt="" coords="5,155,144,181"/>
+<area shape="rect" id="node5" href="$path__selection__main_8cpp.html" title="Main function used to start the node path_follow_select_path. This will allow to select the points in..." alt="" coords="169,155,335,181"/>
+<area shape="rect" id="node6" href="$plot__path__main_8cpp.html" title="Main function that will start the node path_follow_draw_path. This node will have 3 threads for multi..." alt="" coords="359,155,494,181"/>
+</map>

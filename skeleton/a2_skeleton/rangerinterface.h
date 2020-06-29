@@ -5,7 +5,7 @@
 
 typedef enum {
   CONE,
-  PONIT
+  POINT
 } SensingMethod; /*!< Available data fusion methods - as per requirement C1*/
 
 // The RangerInterface is a class which specifies the minimum
@@ -13,7 +13,7 @@ typedef enum {
 class RangerInterface
 {
 public:
-  RangerInterface()={};
+  RangerInterface(){};
 
   //Generates raw data for sensor
   virtual std::vector<double> generateData() = 0;

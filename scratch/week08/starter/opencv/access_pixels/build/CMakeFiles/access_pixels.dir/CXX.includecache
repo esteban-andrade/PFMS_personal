@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/esteban/git/pfms-2020a-esteban-andrade/scratch/week08/starter/opencv/access_pixels/access_pixels.cpp
+stdio.h
+-
+opencv2/opencv.hpp
+-
+

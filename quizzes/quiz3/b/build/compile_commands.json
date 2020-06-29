@@ -1,7 +1,0 @@
-[
-{
-  "directory": "/home/user/git/pfms-2020a-esteban-andrade/quizzes/quiz3/b/build",
-  "command": "/usr/bin/g++-5      -std=c++11 -g   -o CMakeFiles/sum_doubles.dir/sum_doubles.cpp.o -c /home/user/git/pfms-2020a-esteban-andrade/quizzes/quiz3/b/sum_doubles.cpp",
-  "file": "/home/user/git/pfms-2020a-esteban-andrade/quizzes/quiz3/b/sum_doubles.cpp"
-}
-]

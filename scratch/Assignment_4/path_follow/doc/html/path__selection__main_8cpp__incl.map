@@ -1,0 +1,7 @@
+<map id="path_selection_main.cpp" name="path_selection_main.cpp">
+<area shape="rect" id="node3" href="$path__selection__handler_8h.html" title="This class is the one used for selecting the points in an OG map to be sent to be analysed..." alt="" coords="386,80,553,107"/>
+<area shape="rect" id="node24" href="$path__generation_8h.html" title="This Class was used with multiple intention that include Receive the Poses. Analyse the poses and nav..." alt="" coords="1531,80,1656,107"/>
+<area shape="rect" id="node4" href="$image__handler_8h.html" title="These class will allow to inherit different parameters that will be used for image and poses handling..." alt="" coords="1217,155,1335,181"/>
+<area shape="rect" id="node27" href="$image__processing_8h.html" title="Class that will allow to process and analyse images. " alt="" coords="2805,155,2944,181"/>
+<area shape="rect" id="node29" href="$obstacle__detection_8h.html" title="Class that will allow to detect obstacles and return laser readings based on the FOV. " alt="" coords="2625,155,2767,181"/>
+</map>

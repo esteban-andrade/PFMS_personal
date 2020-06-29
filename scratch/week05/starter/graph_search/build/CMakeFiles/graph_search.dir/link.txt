@@ -1,1 +1,1 @@
-/usr/bin/g++-5      CMakeFiles/graph_search.dir/graph_search.cpp.o  -o graph_search -rdynamic 
+/usr/bin/c++  -g  -rdynamic CMakeFiles/graph_search.dir/graph_search.cpp.o  -o graph_search 

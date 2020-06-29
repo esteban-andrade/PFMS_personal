@@ -1,0 +1,1 @@
+/usr/bin/c++   -std=c++11  -rdynamic CMakeFiles/rawTests.dir/test/utest_rawdata.cpp.o  -o rawTests lib/libgtest.a lib/libgtest_main.a libranger_lib.a lib/libgtest.a -lpthread 

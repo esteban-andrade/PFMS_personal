@@ -1,0 +1,38 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/esteban/git/pfms-2020a-esteban-andrade/quizzes/review5/a/graph.cpp
+set
+-
+queue
+-
+graph.h
+/home/esteban/git/pfms-2020a-esteban-andrade/quizzes/review5/a/graph.h
+map
+-
+
+/home/esteban/git/pfms-2020a-esteban-andrade/quizzes/review5/a/graph.h
+string
+-
+vector
+-
+map
+-
+iostream
+-
+set
+-
+queue
+-
+
+/home/esteban/git/pfms-2020a-esteban-andrade/quizzes/review5/a/main.cpp
+iostream
+-
+graph.h
+/home/esteban/git/pfms-2020a-esteban-andrade/quizzes/review5/a/graph.h
+

@@ -16,6 +16,7 @@ public:
     long double getArea();
     //Declare perimeter method
     long double getPerimeter();
+    double print ();
 
     // Private members are only accessible from within methods of the same class
 private:
@@ -23,6 +24,8 @@ private:
     // The trailing underscore is used to differentiate the member varibles
     // ..from local varibles in our code, this is not compulsary
     double radius_;
+    unsigned raw_data_seed;
+   
 };
 
 #endif // CIRCLE_H

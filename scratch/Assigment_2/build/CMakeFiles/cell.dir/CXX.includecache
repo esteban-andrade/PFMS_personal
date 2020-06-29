@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/esteban/git/pfms-2020a-esteban-andrade/scratch/Assigment_2/cell.cpp
+cell.h
+/home/esteban/git/pfms-2020a-esteban-andrade/scratch/Assigment_2/cell.h
+random
+-
+chrono
+-
+
+/home/esteban/git/pfms-2020a-esteban-andrade/scratch/Assigment_2/cell.h
+

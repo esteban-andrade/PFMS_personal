@@ -1,4 +1,0 @@
-/home/user/git/pfms-2020a-esteban-andrade/scratch/week04/starter/doxygen_example/build/CMakeFiles/rebuild_cache.dir
-/home/user/git/pfms-2020a-esteban-andrade/scratch/week04/starter/doxygen_example/build/CMakeFiles/doc.dir
-/home/user/git/pfms-2020a-esteban-andrade/scratch/week04/starter/doxygen_example/build/CMakeFiles/edit_cache.dir
-/home/user/git/pfms-2020a-esteban-andrade/scratch/week04/starter/doxygen_example/build/CMakeFiles/shapes.dir

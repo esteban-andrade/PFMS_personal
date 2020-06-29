@@ -1,0 +1,361 @@
+\hypertarget{classScanner}{}\section{Scanner Class Reference}
+\label{classScanner}\index{Scanner@{Scanner}}
+
+
+The class \hyperlink{classScanner}{Scanner} will perform all the analysis relative to the aircraft and base in respect to the bogies.  
+
+
+
+
+{\ttfamily \#include $<$Scanner.\+h$>$}
+
+Inheritance diagram for Scanner\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{classScanner}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classScanner_acc995a4b67a10d2652ce00afed14f497}\label{classScanner_acc995a4b67a10d2652ce00afed14f497}} 
+\hyperlink{classScanner_acc995a4b67a10d2652ce00afed14f497}{Scanner} ()
+\begin{DoxyCompactList}\small\item\em Construct a new \hyperlink{classScanner}{Scanner} object. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classScanner_a39f85e20f3ca942fd0a8e4bce88c27c7}\label{classScanner_a39f85e20f3ca942fd0a8e4bce88c27c7}} 
+\hyperlink{classScanner_a39f85e20f3ca942fd0a8e4bce88c27c7}{$\sim$\+Scanner} ()
+\begin{DoxyCompactList}\small\item\em Destroy the \hyperlink{classScanner}{Scanner} object. \end{DoxyCompactList}\item 
+void \hyperlink{classScanner_a846ec9883243c9837e0a910cd82e969d}{determine\+Target} (\hyperlink{structPose}{Pose}, std\+::vector$<$ \hyperlink{structRangeBearingStamped}{Range\+Bearing\+Stamped} $>$)
+\begin{DoxyCompactList}\small\item\em Will determine the target bogie. it will select the most appropiate bogie and store its position in x and y. \end{DoxyCompactList}\item 
+void \hyperlink{classScanner_ad0f7c663c60e8315c5f99935de8e9ecb}{friendly\+Relative\+Base} (\hyperlink{structPose}{Pose} \&)
+\begin{DoxyCompactList}\small\item\em Will get and analise the distance from the base relative to the friendly. \end{DoxyCompactList}\item 
+void \hyperlink{classScanner_ad18851f19a61b642c699f425b62911a4}{base\+Scan} (std\+::vector$<$ \hyperlink{structRangeVelocityStamped}{Range\+Velocity\+Stamped} $>$ \&)
+\begin{DoxyCompactList}\small\item\em Will Scan and store the Values from the friendly scanner. \end{DoxyCompactList}\item 
+void \hyperlink{classScanner_a61dd33aeecd220e4dec5f9cbd6403f9e}{air\+Craft\+Scan} (std\+::vector$<$ \hyperlink{structRangeBearingStamped}{Range\+Bearing\+Stamped} $>$ \&)
+\begin{DoxyCompactList}\small\item\em Will analyse and the passed vector of \hyperlink{structRangeVelocityStamped}{Range\+Velocity\+Stamped} and it will sort the results. \end{DoxyCompactList}\item 
+std\+::vector$<$ \hyperlink{structRangeVelocityStamped}{Range\+Velocity\+Stamped} $>$ \hyperlink{classScanner_a59590dd900ab1c5cc362fa4a00df533d}{get\+Base\+Scan\+Results} ()
+\begin{DoxyCompactList}\small\item\em Get the Base Scan Results object from base scam. \end{DoxyCompactList}\item 
+std\+::vector$<$ \hyperlink{structRangeBearingStamped}{Range\+Bearing\+Stamped} $>$ \hyperlink{classScanner_a27b2ba73647d40946e00bceb824712e9}{get\+Friendly\+Scan\+Results} ()
+\begin{DoxyCompactList}\small\item\em Get the Friendly Scan Results object from aircraft scan. \end{DoxyCompactList}\item 
+std\+::vector$<$ std\+::pair$<$ double, double $>$ $>$ \hyperlink{classScanner_a556ac0598666bf9543099daef4655d6b}{get\+Target} ()
+\begin{DoxyCompactList}\small\item\em Get the Target object of the bogie. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classScanner_a95dea82a0db3f7ca8cf5152c85f89239}\label{classScanner_a95dea82a0db3f7ca8cf5152c85f89239}} 
+void \hyperlink{classScanner_a95dea82a0db3f7ca8cf5152c85f89239}{reset\+Data} ()
+\begin{DoxyCompactList}\small\item\em Will reset all the data and S\+TL containers. \end{DoxyCompactList}\item 
+std\+::vector$<$ std\+::pair$<$ double, double $>$ $>$ \hyperlink{classScanner_a26f1e15d585005c467740b4bed4329c0}{get\+Base\+Scan} ()
+\begin{DoxyCompactList}\small\item\em Get the Base Scan object from the base Scan. \end{DoxyCompactList}\item 
+std\+::vector$<$ std\+::pair$<$ double, double $>$ $>$ \hyperlink{classScanner_a32f7e7f5ff6ac8f048263e26b059aae9}{get\+Friendly\+Scan} ()
+\begin{DoxyCompactList}\small\item\em Get the Friendly Scan object from the \hyperlink{structAircraft}{Aircraft} scan. \end{DoxyCompactList}\item 
+std\+::vector$<$ std\+::pair$<$ double, double $>$ $>$ \hyperlink{classScanner_a5b8ec13e023aef168abc91716d22bbb2}{get\+Base\+To\+Friendly} ()
+\begin{DoxyCompactList}\small\item\em Get the Base To Friendly object relative to the base. \end{DoxyCompactList}\item 
+int \hyperlink{classScanner_a22fe48ec9b56a6475f5e8a8745adca1f}{get\+Bogie\+Index} ()
+\begin{DoxyCompactList}\small\item\em Get the Bogie Index object. \end{DoxyCompactList}\item 
+void \hyperlink{classScanner_ae744985c5a046805010a9388cedaa006}{predict\+Target} (std\+::vector$<$ \hyperlink{structRangeBearingStamped}{Range\+Bearing\+Stamped} $>$ \&, std\+::vector$<$ \hyperlink{structRangeBearingStamped}{Range\+Bearing\+Stamped} $>$ \&)
+\begin{DoxyCompactList}\small\item\em will Analyse the predicted position and compute the velocity vector \end{DoxyCompactList}\item 
+std\+::vector$<$ double $>$ \hyperlink{classScanner_ac9b03f1f8b6f38f6f8144affa6be9854}{get\+Object\+Velocity} ()
+\begin{DoxyCompactList}\small\item\em Get the Object Velocity object in Scalar. \end{DoxyCompactList}\item 
+std\+::vector$<$ std\+::pair$<$ double, double $>$ $>$ \hyperlink{classScanner_a4f9ba72b2339cad7e3cb7ffe46196ea2}{get\+Predicted\+Target} ()
+\begin{DoxyCompactList}\small\item\em Get the Predicted Target object in position x and y. \end{DoxyCompactList}\item 
+double \hyperlink{classScanner_a222da6748f943d345a926d5a7094795e}{get\+Bearing\+Angle} ()
+\begin{DoxyCompactList}\small\item\em Get the Bearing Angle object relative to the friendly and bogie. \end{DoxyCompactList}\item 
+std\+::vector$<$ std\+::pair$<$ double, double $>$ $>$ \hyperlink{classScanner_aa551cad3b1137f4fbe052181f09f987f}{get\+Velocity\+Vector} ()
+\begin{DoxyCompactList}\small\item\em Get the Velocity Vector object. \end{DoxyCompactList}\item 
+double \hyperlink{classScanner_a3ba854fbf61ce01180479f2d9fbf11f9}{get\+Orientation\+Prediction} ()
+\begin{DoxyCompactList}\small\item\em Get the Orientation Prediction object of the bogie. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+The class \hyperlink{classScanner}{Scanner} will perform all the analysis relative to the aircraft and base in respect to the bogies. 
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{classScanner_a61dd33aeecd220e4dec5f9cbd6403f9e}\label{classScanner_a61dd33aeecd220e4dec5f9cbd6403f9e}} 
+\index{Scanner@{Scanner}!air\+Craft\+Scan@{air\+Craft\+Scan}}
+\index{air\+Craft\+Scan@{air\+Craft\+Scan}!Scanner@{Scanner}}
+\subsubsection{\texorpdfstring{air\+Craft\+Scan()}{airCraftScan()}}
+{\footnotesize\ttfamily void Scanner\+::air\+Craft\+Scan (\begin{DoxyParamCaption}\item[{std\+::vector$<$ \hyperlink{structRangeBearingStamped}{Range\+Bearing\+Stamped} $>$ \&}]{raw\+\_\+scan\+\_\+sim }\end{DoxyParamCaption})}
+
+
+
+Will analyse and the passed vector of \hyperlink{structRangeVelocityStamped}{Range\+Velocity\+Stamped} and it will sort the results. 
+
+\begin{DoxyNote}{Note}
+Will store the in pairs of range and theta of the bogies relative to the friendly 
+\end{DoxyNote}
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\tt in}  & {\em vector} & \hyperlink{structRangeBearingStamped}{Range\+Bearing\+Stamped} \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classScanner_ad18851f19a61b642c699f425b62911a4}\label{classScanner_ad18851f19a61b642c699f425b62911a4}} 
+\index{Scanner@{Scanner}!base\+Scan@{base\+Scan}}
+\index{base\+Scan@{base\+Scan}!Scanner@{Scanner}}
+\subsubsection{\texorpdfstring{base\+Scan()}{baseScan()}}
+{\footnotesize\ttfamily void Scanner\+::base\+Scan (\begin{DoxyParamCaption}\item[{std\+::vector$<$ \hyperlink{structRangeVelocityStamped}{Range\+Velocity\+Stamped} $>$ \&}]{base\+\_\+scan\+\_\+sim }\end{DoxyParamCaption})}
+
+
+
+Will Scan and store the Values from the friendly scanner. 
+
+\begin{DoxyNote}{Note}
+it will Store the range of the scan 
+\end{DoxyNote}
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\tt in}  & {\em Vector} & of \hyperlink{structRangeVelocityStamped}{Range\+Velocity\+Stamped} \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classScanner_a846ec9883243c9837e0a910cd82e969d}\label{classScanner_a846ec9883243c9837e0a910cd82e969d}} 
+\index{Scanner@{Scanner}!determine\+Target@{determine\+Target}}
+\index{determine\+Target@{determine\+Target}!Scanner@{Scanner}}
+\subsubsection{\texorpdfstring{determine\+Target()}{determineTarget()}}
+{\footnotesize\ttfamily void Scanner\+::determine\+Target (\begin{DoxyParamCaption}\item[{\hyperlink{structPose}{Pose}}]{pose\+\_\+sim,  }\item[{std\+::vector$<$ \hyperlink{structRangeBearingStamped}{Range\+Bearing\+Stamped} $>$}]{friendly\+\_\+scan }\end{DoxyParamCaption})}
+
+
+
+Will determine the target bogie. it will select the most appropiate bogie and store its position in x and y. 
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\tt in}  & {\em \hyperlink{structPose}{Pose}} & of the corresponding bogie object \\
+\hline
+\mbox{\tt in}  & {\em Vector} & of \hyperlink{structRangeBearingStamped}{Range\+Bearing\+Stamped} in order to analyse the the angle and position \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classScanner_ad0f7c663c60e8315c5f99935de8e9ecb}\label{classScanner_ad0f7c663c60e8315c5f99935de8e9ecb}} 
+\index{Scanner@{Scanner}!friendly\+Relative\+Base@{friendly\+Relative\+Base}}
+\index{friendly\+Relative\+Base@{friendly\+Relative\+Base}!Scanner@{Scanner}}
+\subsubsection{\texorpdfstring{friendly\+Relative\+Base()}{friendlyRelativeBase()}}
+{\footnotesize\ttfamily void Scanner\+::friendly\+Relative\+Base (\begin{DoxyParamCaption}\item[{\hyperlink{structPose}{Pose} \&}]{friendly\+\_\+to\+\_\+base }\end{DoxyParamCaption})}
+
+
+
+Will get and analise the distance from the base relative to the friendly. 
+
+\begin{DoxyNote}{Note}
+Will convert the coordinates to tangential distande 
+\end{DoxyNote}
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\tt in}  & {\em \hyperlink{structPose}{Pose}} & of the friendly \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classScanner_a26f1e15d585005c467740b4bed4329c0}\label{classScanner_a26f1e15d585005c467740b4bed4329c0}} 
+\index{Scanner@{Scanner}!get\+Base\+Scan@{get\+Base\+Scan}}
+\index{get\+Base\+Scan@{get\+Base\+Scan}!Scanner@{Scanner}}
+\subsubsection{\texorpdfstring{get\+Base\+Scan()}{getBaseScan()}}
+{\footnotesize\ttfamily std\+::vector$<$ std\+::pair$<$ double, double $>$ $>$ Scanner\+::get\+Base\+Scan (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Get the Base Scan object from the base Scan. 
+
+\begin{DoxyNote}{Note}
+will return range and time stamp 
+\end{DoxyNote}
+\begin{DoxyReturn}{Returns}
+std\+::vector$<$std\+::pair$<$double, double$>$$>$ Base\+Scan\+Coordinates 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classScanner_a59590dd900ab1c5cc362fa4a00df533d}\label{classScanner_a59590dd900ab1c5cc362fa4a00df533d}} 
+\index{Scanner@{Scanner}!get\+Base\+Scan\+Results@{get\+Base\+Scan\+Results}}
+\index{get\+Base\+Scan\+Results@{get\+Base\+Scan\+Results}!Scanner@{Scanner}}
+\subsubsection{\texorpdfstring{get\+Base\+Scan\+Results()}{getBaseScanResults()}}
+{\footnotesize\ttfamily std\+::vector$<$ \hyperlink{structRangeVelocityStamped}{Range\+Velocity\+Stamped} $>$ Scanner\+::get\+Base\+Scan\+Results (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Get the Base Scan Results object from base scam. 
+
+\begin{DoxyReturn}{Returns}
+std\+::vector$<$\+Range\+Velocity\+Stamped$>$ of Base\+Scan 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classScanner_a5b8ec13e023aef168abc91716d22bbb2}\label{classScanner_a5b8ec13e023aef168abc91716d22bbb2}} 
+\index{Scanner@{Scanner}!get\+Base\+To\+Friendly@{get\+Base\+To\+Friendly}}
+\index{get\+Base\+To\+Friendly@{get\+Base\+To\+Friendly}!Scanner@{Scanner}}
+\subsubsection{\texorpdfstring{get\+Base\+To\+Friendly()}{getBaseToFriendly()}}
+{\footnotesize\ttfamily std\+::vector$<$ std\+::pair$<$ double, double $>$ $>$ Scanner\+::get\+Base\+To\+Friendly (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Get the Base To Friendly object relative to the base. 
+
+\begin{DoxyNote}{Note}
+Will get values of distance and angle 
+\end{DoxyNote}
+\begin{DoxyReturn}{Returns}
+std\+::vector$<$std\+::pair$<$double, double$>$$>$ Base\+To\+Friendly\+Coordinates 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classScanner_a222da6748f943d345a926d5a7094795e}\label{classScanner_a222da6748f943d345a926d5a7094795e}} 
+\index{Scanner@{Scanner}!get\+Bearing\+Angle@{get\+Bearing\+Angle}}
+\index{get\+Bearing\+Angle@{get\+Bearing\+Angle}!Scanner@{Scanner}}
+\subsubsection{\texorpdfstring{get\+Bearing\+Angle()}{getBearingAngle()}}
+{\footnotesize\ttfamily double Scanner\+::get\+Bearing\+Angle (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Get the Bearing Angle object relative to the friendly and bogie. 
+
+\begin{DoxyReturn}{Returns}
+double of bearing angle 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classScanner_a22fe48ec9b56a6475f5e8a8745adca1f}\label{classScanner_a22fe48ec9b56a6475f5e8a8745adca1f}} 
+\index{Scanner@{Scanner}!get\+Bogie\+Index@{get\+Bogie\+Index}}
+\index{get\+Bogie\+Index@{get\+Bogie\+Index}!Scanner@{Scanner}}
+\subsubsection{\texorpdfstring{get\+Bogie\+Index()}{getBogieIndex()}}
+{\footnotesize\ttfamily int Scanner\+::get\+Bogie\+Index (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Get the Bogie Index object. 
+
+\begin{DoxyReturn}{Returns}
+int of bogie index target 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classScanner_a32f7e7f5ff6ac8f048263e26b059aae9}\label{classScanner_a32f7e7f5ff6ac8f048263e26b059aae9}} 
+\index{Scanner@{Scanner}!get\+Friendly\+Scan@{get\+Friendly\+Scan}}
+\index{get\+Friendly\+Scan@{get\+Friendly\+Scan}!Scanner@{Scanner}}
+\subsubsection{\texorpdfstring{get\+Friendly\+Scan()}{getFriendlyScan()}}
+{\footnotesize\ttfamily std\+::vector$<$ std\+::pair$<$ double, double $>$ $>$ Scanner\+::get\+Friendly\+Scan (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Get the Friendly Scan object from the \hyperlink{structAircraft}{Aircraft} scan. 
+
+\begin{DoxyNote}{Note}
+Will get the values in Range and Bearing 
+\end{DoxyNote}
+\begin{DoxyReturn}{Returns}
+std\+::vector$<$std\+::pair$<$double, double$>$$>$ Friendly\+Scan\+Coordinates 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classScanner_a27b2ba73647d40946e00bceb824712e9}\label{classScanner_a27b2ba73647d40946e00bceb824712e9}} 
+\index{Scanner@{Scanner}!get\+Friendly\+Scan\+Results@{get\+Friendly\+Scan\+Results}}
+\index{get\+Friendly\+Scan\+Results@{get\+Friendly\+Scan\+Results}!Scanner@{Scanner}}
+\subsubsection{\texorpdfstring{get\+Friendly\+Scan\+Results()}{getFriendlyScanResults()}}
+{\footnotesize\ttfamily std\+::vector$<$ \hyperlink{structRangeBearingStamped}{Range\+Bearing\+Stamped} $>$ Scanner\+::get\+Friendly\+Scan\+Results (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Get the Friendly Scan Results object from aircraft scan. 
+
+\begin{DoxyReturn}{Returns}
+std\+::vector$<$\+Range\+Bearing\+Stamped$>$ Friendly\+Scan 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classScanner_ac9b03f1f8b6f38f6f8144affa6be9854}\label{classScanner_ac9b03f1f8b6f38f6f8144affa6be9854}} 
+\index{Scanner@{Scanner}!get\+Object\+Velocity@{get\+Object\+Velocity}}
+\index{get\+Object\+Velocity@{get\+Object\+Velocity}!Scanner@{Scanner}}
+\subsubsection{\texorpdfstring{get\+Object\+Velocity()}{getObjectVelocity()}}
+{\footnotesize\ttfamily std\+::vector$<$ double $>$ Scanner\+::get\+Object\+Velocity (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+Get the Object Velocity object in Scalar. 
+
+\begin{DoxyReturn}{Returns}
+std\+::vector$<$double$>$ of the scalar velocity 
+\end{DoxyReturn}
+
+
+Implements \hyperlink{classScannerInterface_a7f6b7a9cd907c8fdde13784ae3caec00}{Scanner\+Interface}.
+
+\mbox{\Hypertarget{classScanner_a3ba854fbf61ce01180479f2d9fbf11f9}\label{classScanner_a3ba854fbf61ce01180479f2d9fbf11f9}} 
+\index{Scanner@{Scanner}!get\+Orientation\+Prediction@{get\+Orientation\+Prediction}}
+\index{get\+Orientation\+Prediction@{get\+Orientation\+Prediction}!Scanner@{Scanner}}
+\subsubsection{\texorpdfstring{get\+Orientation\+Prediction()}{getOrientationPrediction()}}
+{\footnotesize\ttfamily double Scanner\+::get\+Orientation\+Prediction (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Get the Orientation Prediction object of the bogie. 
+
+\begin{DoxyNote}{Note}
+will get the predicted bogie orientation 
+\end{DoxyNote}
+\begin{DoxyReturn}{Returns}
+double orientation 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classScanner_a4f9ba72b2339cad7e3cb7ffe46196ea2}\label{classScanner_a4f9ba72b2339cad7e3cb7ffe46196ea2}} 
+\index{Scanner@{Scanner}!get\+Predicted\+Target@{get\+Predicted\+Target}}
+\index{get\+Predicted\+Target@{get\+Predicted\+Target}!Scanner@{Scanner}}
+\subsubsection{\texorpdfstring{get\+Predicted\+Target()}{getPredictedTarget()}}
+{\footnotesize\ttfamily std\+::vector$<$ std\+::pair$<$ double, double $>$ $>$ Scanner\+::get\+Predicted\+Target (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+Get the Predicted Target object in position x and y. 
+
+\begin{DoxyNote}{Note}
+will get the predicted coordinates in x and y 
+\end{DoxyNote}
+\begin{DoxyReturn}{Returns}
+std\+::vector$<$std\+::pair$<$double, double$>$$>$ predicted\+\_\+coordinates 
+\end{DoxyReturn}
+
+
+Implements \hyperlink{classScannerInterface_a27f991c8667a4c2524580addd264ae70}{Scanner\+Interface}.
+
+\mbox{\Hypertarget{classScanner_a556ac0598666bf9543099daef4655d6b}\label{classScanner_a556ac0598666bf9543099daef4655d6b}} 
+\index{Scanner@{Scanner}!get\+Target@{get\+Target}}
+\index{get\+Target@{get\+Target}!Scanner@{Scanner}}
+\subsubsection{\texorpdfstring{get\+Target()}{getTarget()}}
+{\footnotesize\ttfamily std\+::vector$<$ std\+::pair$<$ double, double $>$ $>$ Scanner\+::get\+Target (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+Get the Target object of the bogie. 
+
+\begin{DoxyNote}{Note}
+Will get the coordinates in X and Y in the plane 
+\end{DoxyNote}
+\begin{DoxyReturn}{Returns}
+std\+::vector$<$std\+::pair$<$double, double$>$$>$ Coordinates 
+\end{DoxyReturn}
+
+
+Implements \hyperlink{classScannerInterface_a526bd963b27ac01be5844bfcb9ecdb27}{Scanner\+Interface}.
+
+\mbox{\Hypertarget{classScanner_aa551cad3b1137f4fbe052181f09f987f}\label{classScanner_aa551cad3b1137f4fbe052181f09f987f}} 
+\index{Scanner@{Scanner}!get\+Velocity\+Vector@{get\+Velocity\+Vector}}
+\index{get\+Velocity\+Vector@{get\+Velocity\+Vector}!Scanner@{Scanner}}
+\subsubsection{\texorpdfstring{get\+Velocity\+Vector()}{getVelocityVector()}}
+{\footnotesize\ttfamily std\+::vector$<$ std\+::pair$<$ double, double $>$ $>$ Scanner\+::get\+Velocity\+Vector (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+Get the Velocity Vector object. 
+
+\begin{DoxyNote}{Note}
+Will get the velocity vector Vx and Vy 
+\end{DoxyNote}
+\begin{DoxyReturn}{Returns}
+std\+::vector$<$std\+::pair$<$double, double$>$$>$ Velocity 
+\end{DoxyReturn}
+
+
+Implements \hyperlink{classScannerInterface_a9dce1c9696b08fc10a1db681a479b0a9}{Scanner\+Interface}.
+
+\mbox{\Hypertarget{classScanner_ae744985c5a046805010a9388cedaa006}\label{classScanner_ae744985c5a046805010a9388cedaa006}} 
+\index{Scanner@{Scanner}!predict\+Target@{predict\+Target}}
+\index{predict\+Target@{predict\+Target}!Scanner@{Scanner}}
+\subsubsection{\texorpdfstring{predict\+Target()}{predictTarget()}}
+{\footnotesize\ttfamily void Scanner\+::predict\+Target (\begin{DoxyParamCaption}\item[{std\+::vector$<$ \hyperlink{structRangeBearingStamped}{Range\+Bearing\+Stamped} $>$ \&}]{initial,  }\item[{std\+::vector$<$ \hyperlink{structRangeBearingStamped}{Range\+Bearing\+Stamped} $>$ \&}]{secondary }\end{DoxyParamCaption})}
+
+
+
+will Analyse the predicted position and compute the velocity vector 
+
+\begin{DoxyNote}{Note}
+Will obtain the previous calculated target and get the position in two different times. To later calculate the velocity vector and predict the fiture position in 210 ms 
+
+Will consider all possible orientations and directions and adjust the predicted orientation 
+\end{DoxyNote}
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\tt in}  & {\em std\+::vector$<$\+Range\+Bearing\+Stamped$>$} & in order to get the intitial time stamp of the required objet be analysed \\
+\hline
+\mbox{\tt in}  & {\em std\+::vector$<$\+Range\+Bearing\+Stamped$>$} & in order to get the second time stamp of the required object \\
+\hline
+\end{DoxyParams}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+/home/esteban/git/pfms-\/2020a-\/esteban-\/andrade/scratch/\+Assignment3/\+Submission/a3/\hyperlink{Scanner_8h}{Scanner.\+h}\item 
+/home/esteban/git/pfms-\/2020a-\/esteban-\/andrade/scratch/\+Assignment3/\+Submission/a3/Scanner.\+cpp\end{DoxyCompactItemize}

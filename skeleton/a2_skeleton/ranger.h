@@ -9,6 +9,29 @@ class Ranger: public RangerInterface
   Ranger();
 
   //See rangerinterface.h for more information
+
+  //Generates raw data for sensor
+  std::vector<double> generateData();
+
+  //Essential getters for obtaining internal private variables
+  unsigned int getAngularResolution(void);
+  unsigned int getAngularResolution(void);
+  double getMaxRange(void);
+  double getMinRange(void);
+  SensingMethod getSensingMethod(void);
+
+  //Essential setters for setting internal private variables
+  bool setAngularResolution(unsigned int);
+  bool setOffset(int);
+  bool setFieldOfView(unsigned int);
+
+  protected:
+  double orientation_offset_;
+  int field_of_view_;
+  int angular_resolution_;
+  int number_samples_;
+  std::vector <double> data_;
+  SensingMethod sensing_type_;
 };
 
 #endif // RANGER_H

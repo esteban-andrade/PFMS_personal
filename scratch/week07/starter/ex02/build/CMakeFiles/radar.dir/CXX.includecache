@@ -1,0 +1,44 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/esteban/git/pfms-2020a-esteban-andrade/scratch/week07/starter/ex02/dataprocessing.cpp
+dataprocessing.h
+/home/esteban/git/pfms-2020a-esteban-andrade/scratch/week07/starter/ex02/dataprocessing.h
+
+/home/esteban/git/pfms-2020a-esteban-andrade/scratch/week07/starter/ex02/dataprocessing.h
+
+/home/esteban/git/pfms-2020a-esteban-andrade/scratch/week07/starter/ex02/main.cpp
+iostream
+-
+thread
+-
+radar.h
+/home/esteban/git/pfms-2020a-esteban-andrade/scratch/week07/starter/ex02/radar.h
+
+/home/esteban/git/pfms-2020a-esteban-andrade/scratch/week07/starter/ex02/radar.cpp
+iostream
+-
+stdlib.h
+-
+radar.h
+/home/esteban/git/pfms-2020a-esteban-andrade/scratch/week07/starter/ex02/radar.h
+vector
+-
+chrono
+-
+thread
+-
+
+/home/esteban/git/pfms-2020a-esteban-andrade/scratch/week07/starter/ex02/radar.h
+string
+-
+vector
+-
+random
+-
+

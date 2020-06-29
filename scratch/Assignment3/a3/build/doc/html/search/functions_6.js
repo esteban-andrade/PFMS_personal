@@ -1,0 +1,23 @@
+var searchData=
+[
+  ['getangularspeed',['getAngularSpeed',['../classNavigation.html#a412ff177cefb3c4ddaf87daab3fe4c4c',1,'Navigation::getAngularSpeed()'],['../classNavigationInterface.html#a9fda3919f625414f9fe68dd03deb3130',1,'NavigationInterface::getAngularSpeed()']]],
+  ['getbasescan',['getBaseScan',['../classScanner.html#a26f1e15d585005c467740b4bed4329c0',1,'Scanner']]],
+  ['getbasescanresults',['getBaseScanResults',['../classScanner.html#a59590dd900ab1c5cc362fa4a00df533d',1,'Scanner']]],
+  ['getbasetofriendly',['getBaseToFriendly',['../classScanner.html#a5b8ec13e023aef168abc91716d22bbb2',1,'Scanner']]],
+  ['getbearingangle',['getBearingAngle',['../classScanner.html#a222da6748f943d345a926d5a7094795e',1,'Scanner']]],
+  ['getbogieindex',['getBogieIndex',['../classScanner.html#a22fe48ec9b56a6475f5e8a8745adca1f',1,'Scanner']]],
+  ['getcurrentpose',['getCurrentPose',['../classNavigation.html#af82fc8cc1546fa2a54e8a8651c1adc80',1,'Navigation::getCurrentPose()'],['../classNavigationInterface.html#ab37e23f5f838c02d7768d2f02b1fe429',1,'NavigationInterface::getCurrentPose()']]],
+  ['getdistancefrombase',['getDistanceFromBase',['../classNavigation.html#ac417c0408968151493e5dccefae38bc7',1,'Navigation']]],
+  ['getfriendlyangularvelocity',['getFriendlyAngularVelocity',['../classSimulator.html#a054241a50cbf232b71acdaf4290855d3',1,'Simulator::getFriendlyAngularVelocity(void)'],['../classSimulator.html#a054241a50cbf232b71acdaf4290855d3',1,'Simulator::getFriendlyAngularVelocity(void)']]],
+  ['getfriendlylinearvelocity',['getFriendlyLinearVelocity',['../classSimulator.html#a17d07e629ef87450d91d960c2e6b231e',1,'Simulator::getFriendlyLinearVelocity(void)'],['../classSimulator.html#a17d07e629ef87450d91d960c2e6b231e',1,'Simulator::getFriendlyLinearVelocity(void)']]],
+  ['getfriendlypose',['getFriendlyPose',['../classSimulator.html#ab498029a37713969af417acfa7208d08',1,'Simulator::getFriendlyPose(void)'],['../classSimulator.html#ab498029a37713969af417acfa7208d08',1,'Simulator::getFriendlyPose(void)']]],
+  ['getfriendlyscan',['getFriendlyScan',['../classScanner.html#a32f7e7f5ff6ac8f048263e26b059aae9',1,'Scanner']]],
+  ['getfriendlyscanresults',['getFriendlyScanResults',['../classScanner.html#a27b2ba73647d40946e00bceb824712e9',1,'Scanner']]],
+  ['getlinearvelocity',['getLinearVelocity',['../classNavigation.html#a9aef484e223556a207734159612fb2c9',1,'Navigation::getLinearVelocity()'],['../classNavigationInterface.html#aa5c9df2654078875f72368e919e28432',1,'NavigationInterface::getLinearVelocity()']]],
+  ['getobjectvelocity',['getObjectVelocity',['../classScanner.html#ac9b03f1f8b6f38f6f8144affa6be9854',1,'Scanner::getObjectVelocity()'],['../classScannerInterface.html#a7f6b7a9cd907c8fdde13784ae3caec00',1,'ScannerInterface::getObjectVelocity()']]],
+  ['getorientation',['getOrientation',['../classNavigation.html#a18d539b159c80fd2d1af2021ad6d3947',1,'Navigation']]],
+  ['getorientationprediction',['getOrientationPrediction',['../classScanner.html#a3ba854fbf61ce01180479f2d9fbf11f9',1,'Scanner']]],
+  ['getpredictedtarget',['getPredictedTarget',['../classScanner.html#a4f9ba72b2339cad7e3cb7ffe46196ea2',1,'Scanner::getPredictedTarget()'],['../classScannerInterface.html#a27f991c8667a4c2524580addd264ae70',1,'ScannerInterface::getPredictedTarget()']]],
+  ['gettarget',['getTarget',['../classScanner.html#a556ac0598666bf9543099daef4655d6b',1,'Scanner::getTarget()'],['../classScannerInterface.html#a526bd963b27ac01be5844bfcb9ecdb27',1,'ScannerInterface::getTarget()']]],
+  ['getvelocityvector',['getVelocityVector',['../classScanner.html#aa551cad3b1137f4fbe052181f09f987f',1,'Scanner::getVelocityVector()'],['../classScannerInterface.html#a9dce1c9696b08fc10a1db681a479b0a9',1,'ScannerInterface::getVelocityVector()']]]
+];

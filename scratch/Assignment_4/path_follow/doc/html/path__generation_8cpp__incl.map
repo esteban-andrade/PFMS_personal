@@ -1,0 +1,6 @@
+<map id="path_generation.cpp" name="path_generation.cpp">
+<area shape="rect" id="node5" href="$path__generation_8h.html" title="This Class was used with multiple intention that include Receive the Poses. Analyse the poses and nav..." alt="" coords="1500,80,1625,107"/>
+<area shape="rect" id="node22" href="$image__handler_8h.html" title="These class will allow to inherit different parameters that will be used for image and poses handling..." alt="" coords="1456,155,1573,181"/>
+<area shape="rect" id="node26" href="$image__processing_8h.html" title="Class that will allow to process and analyse images. " alt="" coords="2777,155,2916,181"/>
+<area shape="rect" id="node28" href="$obstacle__detection_8h.html" title="Class that will allow to detect obstacles and return laser readings based on the FOV. " alt="" coords="2423,155,2566,181"/>
+</map>

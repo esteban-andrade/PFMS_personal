@@ -1,0 +1,25 @@
+/*!
+
+*/
+
+// without this gap between two doxygen definition, the last group does not get
+// populated properly for some reason.
+
+/*!
+@mainpage 41012 Assignment 2:
+Utilising Abstraction for a Range of Sensor Classes
+
+@section Description
+Write a program in C++ using object oriented paradigms that embodies a range of Mechatronics sensors, utilising abstraction, encapsulation, inheritance and polymorphism. Supply appropriate auto-generated documentation utilising inline source mark-up.
+
+@subsection  Rationale
+In a Mechatronics System we would use a class to represent a real-world object such as a Sensor. In large projects to facilitate testing it is common to develop a mock (fake) sensor class that behaves the same as the real sensor. This allows for some system testing without the presence of all hardware.\n
+Sensors producing data of similar nature are often abstracted from a base sensor (ie. sensor that produce range to the sensor surrounding such as a radar/laser/sonar). This allows treating a suite of sensors in an abstract manner when processing the data, the remaining of our processing code can be agnostic to the sensor type.
+
+
+@section Details
+- Student Name: Esteban Andrade\n
+- Student ID: 12824583
+
+*/
+

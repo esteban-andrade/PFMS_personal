@@ -1,3 +1,0 @@
-/home/user/git/pfms-2020a-esteban-andrade/tutorials/week01/starter/build/CMakeFiles/edit_cache.dir
-/home/user/git/pfms-2020a-esteban-andrade/tutorials/week01/starter/build/CMakeFiles/rebuild_cache.dir
-/home/user/git/pfms-2020a-esteban-andrade/tutorials/week01/starter/build/CMakeFiles/hello.dir

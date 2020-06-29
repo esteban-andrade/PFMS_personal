@@ -1,0 +1,5 @@
+<map id="path_generation.h" name="path_generation.h">
+<area shape="rect" id="node21" href="$image__handler_8h.html" title="These class will allow to inherit different parameters that will be used for image and poses handling..." alt="" coords="1603,80,1721,107"/>
+<area shape="rect" id="node25" href="$image__processing_8h.html" title="Class that will allow to process and analyse images. " alt="" coords="2715,80,2854,107"/>
+<area shape="rect" id="node27" href="$obstacle__detection_8h.html" title="Class that will allow to detect obstacles and return laser readings based on the FOV. " alt="" coords="2100,80,2243,107"/>
+</map>

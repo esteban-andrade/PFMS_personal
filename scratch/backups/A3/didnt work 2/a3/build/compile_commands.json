@@ -1,0 +1,32 @@
+[
+{
+  "directory": "/home/esteban/git/pfms-2020a-esteban-andrade/scratch/Assignment3/a3/build",
+  "command": "/usr/bin/c++   -isystem /usr/include/opencv -I/home/esteban/git/pfms-2020a-esteban-andrade/scratch/Assignment3/a3/dep/bionic   -std=c++11 -pthread -g   -o CMakeFiles/a3_simulator_example.dir/main.cpp.o -c /home/esteban/git/pfms-2020a-esteban-andrade/scratch/Assignment3/a3/main.cpp",
+  "file": "/home/esteban/git/pfms-2020a-esteban-andrade/scratch/Assignment3/a3/main.cpp"
+},
+{
+  "directory": "/home/esteban/git/pfms-2020a-esteban-andrade/scratch/Assignment3/a3/build",
+  "command": "/usr/bin/c++   -isystem /usr/include/opencv -I/home/esteban/git/pfms-2020a-esteban-andrade/scratch/Assignment3/a3/dep/bionic   -std=c++11 -pthread -g   -o CMakeFiles/a3_simulator_example.dir/Navigation.cpp.o -c /home/esteban/git/pfms-2020a-esteban-andrade/scratch/Assignment3/a3/Navigation.cpp",
+  "file": "/home/esteban/git/pfms-2020a-esteban-andrade/scratch/Assignment3/a3/Navigation.cpp"
+},
+{
+  "directory": "/home/esteban/git/pfms-2020a-esteban-andrade/scratch/Assignment3/a3/build",
+  "command": "/usr/bin/c++   -isystem /usr/include/opencv -I/home/esteban/git/pfms-2020a-esteban-andrade/scratch/Assignment3/a3/dep/bionic   -std=c++11 -pthread -g   -o CMakeFiles/a3_simulator_example.dir/Scanner.cpp.o -c /home/esteban/git/pfms-2020a-esteban-andrade/scratch/Assignment3/a3/Scanner.cpp",
+  "file": "/home/esteban/git/pfms-2020a-esteban-andrade/scratch/Assignment3/a3/Scanner.cpp"
+},
+{
+  "directory": "/home/esteban/git/pfms-2020a-esteban-andrade/scratch/Assignment3/a3/build",
+  "command": "/usr/bin/c++   -isystem /usr/include/opencv -I/home/esteban/git/pfms-2020a-esteban-andrade/scratch/Assignment3/a3/dep/bionic   -std=c++11 -pthread -g   -o CMakeFiles/a3_simulator_example.dir/DataSynch.cpp.o -c /home/esteban/git/pfms-2020a-esteban-andrade/scratch/Assignment3/a3/DataSynch.cpp",
+  "file": "/home/esteban/git/pfms-2020a-esteban-andrade/scratch/Assignment3/a3/DataSynch.cpp"
+},
+{
+  "directory": "/home/esteban/git/pfms-2020a-esteban-andrade/scratch/Assignment3/a3/build",
+  "command": "/usr/bin/c++   -isystem /usr/include/opencv -I/home/esteban/git/pfms-2020a-esteban-andrade/scratch/Assignment3/a3/dep/bionic   -std=c++11 -pthread -g   -o CMakeFiles/a3_simulator_example.dir/Navigate.cpp.o -c /home/esteban/git/pfms-2020a-esteban-andrade/scratch/Assignment3/a3/Navigate.cpp",
+  "file": "/home/esteban/git/pfms-2020a-esteban-andrade/scratch/Assignment3/a3/Navigate.cpp"
+},
+{
+  "directory": "/home/esteban/git/pfms-2020a-esteban-andrade/scratch/Assignment3/a3/build",
+  "command": "/usr/bin/c++   -isystem /usr/include/opencv -I/home/esteban/git/pfms-2020a-esteban-andrade/scratch/Assignment3/a3/dep/bionic   -std=c++11 -pthread -g   -o CMakeFiles/a3_simulator_example.dir/Seeker.cpp.o -c /home/esteban/git/pfms-2020a-esteban-andrade/scratch/Assignment3/a3/Seeker.cpp",
+  "file": "/home/esteban/git/pfms-2020a-esteban-andrade/scratch/Assignment3/a3/Seeker.cpp"
+}
+]

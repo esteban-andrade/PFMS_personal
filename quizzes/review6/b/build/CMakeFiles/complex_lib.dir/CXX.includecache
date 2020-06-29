@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/esteban/git/pfms-2020a-esteban-andrade/quizzes/review6/b/complex.cpp
+string
+-
+sstream
+-
+math.h
+-
+complex.h
+/home/esteban/git/pfms-2020a-esteban-andrade/quizzes/review6/b/complex.h
+
+/home/esteban/git/pfms-2020a-esteban-andrade/quizzes/review6/b/complex.h
+string
+-
+

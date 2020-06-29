@@ -1,3 +1,0 @@
-/home/user/git/pfms-2020a-esteban-andrade/scratch/week04/starter/shapes_tut/build/CMakeFiles/rebuild_cache.dir
-/home/user/git/pfms-2020a-esteban-andrade/scratch/week04/starter/shapes_tut/build/CMakeFiles/edit_cache.dir
-/home/user/git/pfms-2020a-esteban-andrade/scratch/week04/starter/shapes_tut/build/CMakeFiles/shapes.dir

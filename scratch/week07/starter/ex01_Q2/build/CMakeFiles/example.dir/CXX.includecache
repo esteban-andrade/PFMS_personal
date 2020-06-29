@@ -1,0 +1,38 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/esteban/git/pfms-2020a-esteban-andrade/scratch/week07/starter/ex01_Q2/DataProcessing.cpp
+thread
+-
+iostream
+-
+DataProcessing.h
+/home/esteban/git/pfms-2020a-esteban-andrade/scratch/week07/starter/ex01_Q2/DataProcessing.h
+
+/home/esteban/git/pfms-2020a-esteban-andrade/scratch/week07/starter/ex01_Q2/DataProcessing.h
+mutex
+-
+vector
+-
+chrono
+-
+random
+-
+algorithm
+-
+condition_variable
+-
+
+/home/esteban/git/pfms-2020a-esteban-andrade/scratch/week07/starter/ex01_Q2/main.cpp
+iostream
+-
+thread
+-
+DataProcessing.h
+/home/esteban/git/pfms-2020a-esteban-andrade/scratch/week07/starter/ex01_Q2/DataProcessing.h
+

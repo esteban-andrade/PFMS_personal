@@ -1,0 +1,19 @@
+-total area 16x16 km
+-The aircraft is controlled by supplying desired linear velocity and angular velocity (V and ω) that the on-board systems immediately responds to, as long as these controls are within operational parameters of aircraft.
+-The controlled linear velocity cannot be less than a terminal velocity (50 m/s). above max velocity (900 m/s)
+-The combination of linear and angular velocity cannot exceed 6G (safety limit for the pilot : calculated as V * ω / g ; g being gravitational force)
+-A watchdog timer in the control systems monitors that control input is supplied every 50ms (5ms tolerance)
+-The aircraft is twice as fast as the bogies (bogie top speed limited to 450m/s.
+-A high-precision INSGPS that provides the aircraft precise pose (x,y and θ)
+-An directional radar that provides range and bearing to the bogies (from the aircraft) updating at 100Hz
+-Receive readings from a radar situated at the base station that provides range and velocity to bogies (from the base station) at 10Hz (the basestation is at location x= 0 y=0).
+
+tasks:
+- The aircraft task is to localise enemy aircraft (bogies) that enters the airspace and intercept the aircraft
+- Obtain data from the aircraft and the ground station
+- Utilise the data to estimate the bogie position and display the estimated position on the simulator
+- In order to intercept, linearly extrapolate the bogie position in time
+- Estimate a control action that will lead to your aircraft intercepting the bogie (pure pursuit)
+- Control the aircraft within the watchdog imposed limits and aircraft specification envelope (terminal velocity / max velocity / max G profile).
+- Stay within the workspace around the base station (total area is 16kmx16km with base station in middle).
+- Intercept as many aircraft as possible

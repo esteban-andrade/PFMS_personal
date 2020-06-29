@@ -1,0 +1,46 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../dep/bionic/include/car.h
+string
+-
+chrono
+-
+
+/home/esteban/git/pfms-2020a-esteban-andrade/quizzes/review7/a/display_race.cpp
+display_race.h
+/home/esteban/git/pfms-2020a-esteban-andrade/quizzes/review7/a/display_race.h
+cmath
+-
+
+/home/esteban/git/pfms-2020a-esteban-andrade/quizzes/review7/a/display_race.h
+opencv2/opencv.hpp
+-
+iostream
+-
+string
+-
+vector
+-
+random
+-
+car.h
+/home/esteban/git/pfms-2020a-esteban-andrade/quizzes/review7/a/car.h
+
+/home/esteban/git/pfms-2020a-esteban-andrade/quizzes/review7/a/main.cpp
+car.h
+/home/esteban/git/pfms-2020a-esteban-andrade/quizzes/review7/a/car.h
+display_race.h
+/home/esteban/git/pfms-2020a-esteban-andrade/quizzes/review7/a/display_race.h
+iostream
+-
+thread
+-
+vector
+-
+

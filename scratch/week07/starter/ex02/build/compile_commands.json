@@ -1,0 +1,17 @@
+[
+{
+  "directory": "/home/esteban/git/pfms-2020a-esteban-andrade/scratch/week07/starter/ex02/build",
+  "command": "/usr/bin/g++-7     -std=c++11 -g   -o CMakeFiles/radar.dir/main.cpp.o -c /home/esteban/git/pfms-2020a-esteban-andrade/scratch/week07/starter/ex02/main.cpp",
+  "file": "/home/esteban/git/pfms-2020a-esteban-andrade/scratch/week07/starter/ex02/main.cpp"
+},
+{
+  "directory": "/home/esteban/git/pfms-2020a-esteban-andrade/scratch/week07/starter/ex02/build",
+  "command": "/usr/bin/g++-7     -std=c++11 -g   -o CMakeFiles/radar.dir/radar.cpp.o -c /home/esteban/git/pfms-2020a-esteban-andrade/scratch/week07/starter/ex02/radar.cpp",
+  "file": "/home/esteban/git/pfms-2020a-esteban-andrade/scratch/week07/starter/ex02/radar.cpp"
+},
+{
+  "directory": "/home/esteban/git/pfms-2020a-esteban-andrade/scratch/week07/starter/ex02/build",
+  "command": "/usr/bin/g++-7     -std=c++11 -g   -o CMakeFiles/radar.dir/dataprocessing.cpp.o -c /home/esteban/git/pfms-2020a-esteban-andrade/scratch/week07/starter/ex02/dataprocessing.cpp",
+  "file": "/home/esteban/git/pfms-2020a-esteban-andrade/scratch/week07/starter/ex02/dataprocessing.cpp"
+}
+]

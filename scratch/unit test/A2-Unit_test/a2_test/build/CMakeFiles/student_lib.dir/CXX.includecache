@@ -1,0 +1,82 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/esteban/git/pfms-2020a-esteban-andrade/scratch/unit test/A2-Unit_test/cell.cpp
+cell.h
+/home/esteban/git/pfms-2020a-esteban-andrade/scratch/unit test/A2-Unit_test/cell.h
+random
+-
+chrono
+-
+
+/home/esteban/git/pfms-2020a-esteban-andrade/scratch/unit test/A2-Unit_test/cell.h
+
+/home/esteban/git/pfms-2020a-esteban-andrade/scratch/unit test/A2-Unit_test/laser.cpp
+laser.h
+/home/esteban/git/pfms-2020a-esteban-andrade/scratch/unit test/A2-Unit_test/laser.h
+
+/home/esteban/git/pfms-2020a-esteban-andrade/scratch/unit test/A2-Unit_test/laser.h
+ranger.h
+/home/esteban/git/pfms-2020a-esteban-andrade/scratch/unit test/A2-Unit_test/ranger.h
+
+/home/esteban/git/pfms-2020a-esteban-andrade/scratch/unit test/A2-Unit_test/ranger.cpp
+ranger.h
+/home/esteban/git/pfms-2020a-esteban-andrade/scratch/unit test/A2-Unit_test/ranger.h
+iostream
+-
+random
+-
+chrono
+-
+
+/home/esteban/git/pfms-2020a-esteban-andrade/scratch/unit test/A2-Unit_test/ranger.h
+rangerinterface.h
+/home/esteban/git/pfms-2020a-esteban-andrade/scratch/unit test/A2-Unit_test/rangerinterface.h
+string
+-
+
+/home/esteban/git/pfms-2020a-esteban-andrade/scratch/unit test/A2-Unit_test/rangerfusion.cpp
+rangerfusion.h
+/home/esteban/git/pfms-2020a-esteban-andrade/scratch/unit test/A2-Unit_test/rangerfusion.h
+random
+-
+chrono
+-
+cmath
+-
+
+/home/esteban/git/pfms-2020a-esteban-andrade/scratch/unit test/A2-Unit_test/rangerfusion.h
+vector
+-
+rangerfusioninterface.h
+/home/esteban/git/pfms-2020a-esteban-andrade/scratch/unit test/A2-Unit_test/rangerfusioninterface.h
+rangerinterface.h
+/home/esteban/git/pfms-2020a-esteban-andrade/scratch/unit test/A2-Unit_test/rangerinterface.h
+cell.h
+/home/esteban/git/pfms-2020a-esteban-andrade/scratch/unit test/A2-Unit_test/cell.h
+
+/home/esteban/git/pfms-2020a-esteban-andrade/scratch/unit test/A2-Unit_test/rangerfusioninterface.h
+vector
+-
+rangerinterface.h
+/home/esteban/git/pfms-2020a-esteban-andrade/scratch/unit test/A2-Unit_test/rangerinterface.h
+cell.h
+/home/esteban/git/pfms-2020a-esteban-andrade/scratch/unit test/A2-Unit_test/cell.h
+
+/home/esteban/git/pfms-2020a-esteban-andrade/scratch/unit test/A2-Unit_test/rangerinterface.h
+vector
+-
+
+/home/esteban/git/pfms-2020a-esteban-andrade/scratch/unit test/A2-Unit_test/sonar.cpp
+sonar.h
+/home/esteban/git/pfms-2020a-esteban-andrade/scratch/unit test/A2-Unit_test/sonar.h
+
+/home/esteban/git/pfms-2020a-esteban-andrade/scratch/unit test/A2-Unit_test/sonar.h
+ranger.h
+/home/esteban/git/pfms-2020a-esteban-andrade/scratch/unit test/A2-Unit_test/ranger.h
+

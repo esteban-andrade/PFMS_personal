@@ -1,0 +1,149 @@
+\hypertarget{classScannerInterface}{}\section{Scanner\+Interface Class Reference}
+\label{classScannerInterface}\index{Scanner\+Interface@{Scanner\+Interface}}
+
+
+This \hyperlink{classScannerInterface}{Scanner\+Interface} is an abstract class that will be the base for multiple scanning classes.  
+
+
+
+
+{\ttfamily \#include $<$Scanner\+Interface.\+h$>$}
+
+Inheritance diagram for Scanner\+Interface\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{classScannerInterface}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classScannerInterface_a6e56474f9979ef6c66a614f0991a9f99}\label{classScannerInterface_a6e56474f9979ef6c66a614f0991a9f99}} 
+\hyperlink{classScannerInterface_a6e56474f9979ef6c66a614f0991a9f99}{Scanner\+Interface} ()
+\begin{DoxyCompactList}\small\item\em Construct a new \hyperlink{classScanner}{Scanner} Interface object of abstract class. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classScannerInterface_a25be999ce7d92de86814631974a96999}\label{classScannerInterface_a25be999ce7d92de86814631974a96999}} 
+\hyperlink{classScannerInterface_a25be999ce7d92de86814631974a96999}{$\sim$\+Scanner\+Interface} ()
+\begin{DoxyCompactList}\small\item\em Destroy the \hyperlink{classScanner}{Scanner} Interface object of the abstract class. \end{DoxyCompactList}\item 
+virtual void \hyperlink{classScannerInterface_a32a25bd134d2d346e3652eea3180ea7b}{reset\+Data} ()=0
+\begin{DoxyCompactList}\small\item\em Virtual function to reset all the acquired data. \end{DoxyCompactList}\item 
+virtual std\+::vector$<$ double $>$ \hyperlink{classScannerInterface_a7f6b7a9cd907c8fdde13784ae3caec00}{get\+Object\+Velocity} ()=0
+\begin{DoxyCompactList}\small\item\em Get the Object Velocity of the target as Scalar. \end{DoxyCompactList}\item 
+virtual std\+::vector$<$ std\+::pair$<$ double, double $>$ $>$ \hyperlink{classScannerInterface_a526bd963b27ac01be5844bfcb9ecdb27}{get\+Target} ()=0
+\begin{DoxyCompactList}\small\item\em Get the Target object in x and y coordinates based on a given plane. \end{DoxyCompactList}\item 
+virtual std\+::vector$<$ std\+::pair$<$ double, double $>$ $>$ \hyperlink{classScannerInterface_a9dce1c9696b08fc10a1db681a479b0a9}{get\+Velocity\+Vector} ()=0
+\begin{DoxyCompactList}\small\item\em Get the Velocity Vector object. \end{DoxyCompactList}\item 
+virtual std\+::vector$<$ std\+::pair$<$ double, double $>$ $>$ \hyperlink{classScannerInterface_a27f991c8667a4c2524580addd264ae70}{get\+Predicted\+Target} ()=0
+\begin{DoxyCompactList}\small\item\em Get the Predicted Target object. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+This \hyperlink{classScannerInterface}{Scanner\+Interface} is an abstract class that will be the base for multiple scanning classes. 
+
+\begin{DoxySeeAlso}{See also}
+\hyperlink{ScannerInterface_8h}{Scanner\+Interface.\+h} 
+\end{DoxySeeAlso}
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{classScannerInterface_a7f6b7a9cd907c8fdde13784ae3caec00}\label{classScannerInterface_a7f6b7a9cd907c8fdde13784ae3caec00}} 
+\index{Scanner\+Interface@{Scanner\+Interface}!get\+Object\+Velocity@{get\+Object\+Velocity}}
+\index{get\+Object\+Velocity@{get\+Object\+Velocity}!Scanner\+Interface@{Scanner\+Interface}}
+\subsubsection{\texorpdfstring{get\+Object\+Velocity()}{getObjectVelocity()}}
+{\footnotesize\ttfamily virtual std\+::vector$<$double$>$ Scanner\+Interface\+::get\+Object\+Velocity (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [pure virtual]}}
+
+
+
+Get the Object Velocity of the target as Scalar. 
+
+\begin{DoxyNote}{Note}
+Will get the converted Scalar velocity of the vector 
+\end{DoxyNote}
+\begin{DoxyReturn}{Returns}
+std\+::vector$<$double$>$ of velocity 
+\end{DoxyReturn}
+
+
+Implemented in \hyperlink{classScanner_ac9b03f1f8b6f38f6f8144affa6be9854}{Scanner}.
+
+\mbox{\Hypertarget{classScannerInterface_a27f991c8667a4c2524580addd264ae70}\label{classScannerInterface_a27f991c8667a4c2524580addd264ae70}} 
+\index{Scanner\+Interface@{Scanner\+Interface}!get\+Predicted\+Target@{get\+Predicted\+Target}}
+\index{get\+Predicted\+Target@{get\+Predicted\+Target}!Scanner\+Interface@{Scanner\+Interface}}
+\subsubsection{\texorpdfstring{get\+Predicted\+Target()}{getPredictedTarget()}}
+{\footnotesize\ttfamily virtual std\+::vector$<$std\+::pair$<$double, double$>$ $>$ Scanner\+Interface\+::get\+Predicted\+Target (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [pure virtual]}}
+
+
+
+Get the Predicted Target object. 
+
+\begin{DoxyNote}{Note}
+Will get the predicted position in x and y 
+\end{DoxyNote}
+\begin{DoxyReturn}{Returns}
+std\+::vector$<$std\+::pair$<$double, double$>$$>$ predicted\+\_\+position 
+\end{DoxyReturn}
+
+
+Implemented in \hyperlink{classScanner_a4f9ba72b2339cad7e3cb7ffe46196ea2}{Scanner}.
+
+\mbox{\Hypertarget{classScannerInterface_a526bd963b27ac01be5844bfcb9ecdb27}\label{classScannerInterface_a526bd963b27ac01be5844bfcb9ecdb27}} 
+\index{Scanner\+Interface@{Scanner\+Interface}!get\+Target@{get\+Target}}
+\index{get\+Target@{get\+Target}!Scanner\+Interface@{Scanner\+Interface}}
+\subsubsection{\texorpdfstring{get\+Target()}{getTarget()}}
+{\footnotesize\ttfamily virtual std\+::vector$<$std\+::pair$<$double, double$>$ $>$ Scanner\+Interface\+::get\+Target (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [pure virtual]}}
+
+
+
+Get the Target object in x and y coordinates based on a given plane. 
+
+\begin{DoxyNote}{Note}
+Will be analysed in reference to a plane of reference 
+\end{DoxyNote}
+\begin{DoxyReturn}{Returns}
+std\+::vector$<$std\+::pair$<$double, double$>$$>$ position 
+\end{DoxyReturn}
+
+
+Implemented in \hyperlink{classScanner_a556ac0598666bf9543099daef4655d6b}{Scanner}.
+
+\mbox{\Hypertarget{classScannerInterface_a9dce1c9696b08fc10a1db681a479b0a9}\label{classScannerInterface_a9dce1c9696b08fc10a1db681a479b0a9}} 
+\index{Scanner\+Interface@{Scanner\+Interface}!get\+Velocity\+Vector@{get\+Velocity\+Vector}}
+\index{get\+Velocity\+Vector@{get\+Velocity\+Vector}!Scanner\+Interface@{Scanner\+Interface}}
+\subsubsection{\texorpdfstring{get\+Velocity\+Vector()}{getVelocityVector()}}
+{\footnotesize\ttfamily virtual std\+::vector$<$std\+::pair$<$double, double$>$ $>$ Scanner\+Interface\+::get\+Velocity\+Vector (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [pure virtual]}}
+
+
+
+Get the Velocity Vector object. 
+
+\begin{DoxyNote}{Note}
+The velocity will be obtain in rectangular coordiantes with Vx and Vy 
+\end{DoxyNote}
+\begin{DoxyReturn}{Returns}
+std\+::vector$<$std\+::pair$<$double, double$>$$>$ velocity\+Vector 
+\end{DoxyReturn}
+
+
+Implemented in \hyperlink{classScanner_aa551cad3b1137f4fbe052181f09f987f}{Scanner}.
+
+\mbox{\Hypertarget{classScannerInterface_a32a25bd134d2d346e3652eea3180ea7b}\label{classScannerInterface_a32a25bd134d2d346e3652eea3180ea7b}} 
+\index{Scanner\+Interface@{Scanner\+Interface}!reset\+Data@{reset\+Data}}
+\index{reset\+Data@{reset\+Data}!Scanner\+Interface@{Scanner\+Interface}}
+\subsubsection{\texorpdfstring{reset\+Data()}{resetData()}}
+{\footnotesize\ttfamily virtual void Scanner\+Interface\+::reset\+Data (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [pure virtual]}}
+
+
+
+Virtual function to reset all the acquired data. 
+
+\begin{DoxyNote}{Note}
+Will need to be used reset all the S\+TL containers of data 
+\end{DoxyNote}
+
+
+Implemented in \hyperlink{classScanner_a95dea82a0db3f7ca8cf5152c85f89239}{Scanner}.
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+/home/esteban/git/pfms-\/2020a-\/esteban-\/andrade/scratch/\+Assignment3/\+Submission/a3/\hyperlink{ScannerInterface_8h}{Scanner\+Interface.\+h}\end{DoxyCompactItemize}

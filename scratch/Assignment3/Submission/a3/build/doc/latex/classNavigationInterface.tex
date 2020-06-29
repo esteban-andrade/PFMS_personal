@@ -1,0 +1,94 @@
+\hypertarget{classNavigationInterface}{}\section{Navigation\+Interface Class Reference}
+\label{classNavigationInterface}\index{Navigation\+Interface@{Navigation\+Interface}}
+
+
+The \hyperlink{classNavigationInterface}{Navigation\+Interface} class will aid to create subsequent navigation child classes.  
+
+
+
+
+{\ttfamily \#include $<$Navigation\+Interface.\+h$>$}
+
+Inheritance diagram for Navigation\+Interface\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{classNavigationInterface}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classNavigationInterface_ae33d4f7b177fb85615bba6d144a5cb6b}\label{classNavigationInterface_ae33d4f7b177fb85615bba6d144a5cb6b}} 
+\hyperlink{classNavigationInterface_ae33d4f7b177fb85615bba6d144a5cb6b}{Navigation\+Interface} ()
+\begin{DoxyCompactList}\small\item\em Construct a new \hyperlink{classNavigation}{Navigation} Interface object of abstract class. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classNavigationInterface_a1f3b72da52b5f8692303f9dcae118f05}\label{classNavigationInterface_a1f3b72da52b5f8692303f9dcae118f05}} 
+\hyperlink{classNavigationInterface_a1f3b72da52b5f8692303f9dcae118f05}{$\sim$\+Navigation\+Interface} ()
+\begin{DoxyCompactList}\small\item\em Destroy the \hyperlink{classNavigation}{Navigation} Interface object of abstract class. \end{DoxyCompactList}\item 
+virtual double \hyperlink{classNavigationInterface_a9fda3919f625414f9fe68dd03deb3130}{get\+Angular\+Speed} ()=0
+\begin{DoxyCompactList}\small\item\em Get the Angular Speed object in rad/s. \end{DoxyCompactList}\item 
+virtual double \hyperlink{classNavigationInterface_aa5c9df2654078875f72368e919e28432}{get\+Linear\+Velocity} ()=0
+\begin{DoxyCompactList}\small\item\em Get the Linear Velocity object in m/s. \end{DoxyCompactList}\item 
+virtual \hyperlink{structPose}{Pose} \hyperlink{classNavigationInterface_ab37e23f5f838c02d7768d2f02b1fe429}{get\+Current\+Pose} ()=0
+\begin{DoxyCompactList}\small\item\em Get the Current \hyperlink{structPose}{Pose} object the pose object in space. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+The \hyperlink{classNavigationInterface}{Navigation\+Interface} class will aid to create subsequent navigation child classes. 
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{classNavigationInterface_a9fda3919f625414f9fe68dd03deb3130}\label{classNavigationInterface_a9fda3919f625414f9fe68dd03deb3130}} 
+\index{Navigation\+Interface@{Navigation\+Interface}!get\+Angular\+Speed@{get\+Angular\+Speed}}
+\index{get\+Angular\+Speed@{get\+Angular\+Speed}!Navigation\+Interface@{Navigation\+Interface}}
+\subsubsection{\texorpdfstring{get\+Angular\+Speed()}{getAngularSpeed()}}
+{\footnotesize\ttfamily virtual double Navigation\+Interface\+::get\+Angular\+Speed (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [pure virtual]}}
+
+
+
+Get the Angular Speed object in rad/s. 
+
+\begin{DoxyReturn}{Returns}
+double of Angular Speed 
+\end{DoxyReturn}
+
+
+Implemented in \hyperlink{classNavigation_a412ff177cefb3c4ddaf87daab3fe4c4c}{Navigation}.
+
+\mbox{\Hypertarget{classNavigationInterface_ab37e23f5f838c02d7768d2f02b1fe429}\label{classNavigationInterface_ab37e23f5f838c02d7768d2f02b1fe429}} 
+\index{Navigation\+Interface@{Navigation\+Interface}!get\+Current\+Pose@{get\+Current\+Pose}}
+\index{get\+Current\+Pose@{get\+Current\+Pose}!Navigation\+Interface@{Navigation\+Interface}}
+\subsubsection{\texorpdfstring{get\+Current\+Pose()}{getCurrentPose()}}
+{\footnotesize\ttfamily virtual \hyperlink{structPose}{Pose} Navigation\+Interface\+::get\+Current\+Pose (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [pure virtual]}}
+
+
+
+Get the Current \hyperlink{structPose}{Pose} object the pose object in space. 
+
+\begin{DoxyReturn}{Returns}
+\hyperlink{structPose}{Pose} of position and orientation 
+\end{DoxyReturn}
+
+
+Implemented in \hyperlink{classNavigation_af82fc8cc1546fa2a54e8a8651c1adc80}{Navigation}.
+
+\mbox{\Hypertarget{classNavigationInterface_aa5c9df2654078875f72368e919e28432}\label{classNavigationInterface_aa5c9df2654078875f72368e919e28432}} 
+\index{Navigation\+Interface@{Navigation\+Interface}!get\+Linear\+Velocity@{get\+Linear\+Velocity}}
+\index{get\+Linear\+Velocity@{get\+Linear\+Velocity}!Navigation\+Interface@{Navigation\+Interface}}
+\subsubsection{\texorpdfstring{get\+Linear\+Velocity()}{getLinearVelocity()}}
+{\footnotesize\ttfamily virtual double Navigation\+Interface\+::get\+Linear\+Velocity (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [pure virtual]}}
+
+
+
+Get the Linear Velocity object in m/s. 
+
+\begin{DoxyReturn}{Returns}
+double of Linear Velocity 
+\end{DoxyReturn}
+
+
+Implemented in \hyperlink{classNavigation_a9aef484e223556a207734159612fb2c9}{Navigation}.
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+/home/esteban/git/pfms-\/2020a-\/esteban-\/andrade/scratch/\+Assignment3/\+Submission/a3/\hyperlink{NavigationInterface_8h}{Navigation\+Interface.\+h}\end{DoxyCompactItemize}

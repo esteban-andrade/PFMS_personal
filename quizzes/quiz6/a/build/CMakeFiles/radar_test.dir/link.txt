@@ -1,0 +1,1 @@
+/usr/bin/c++   -std=c++11 -no-pie -pthread  -rdynamic CMakeFiles/radar_test.dir/main.cpp.o  -o radar_test  -L/home/esteban/git/pfms-2020a-esteban-andrade/quizzes/quiz6/a/dep -Wl,-rpath,/home/esteban/git/pfms-2020a-esteban-andrade/quizzes/quiz6/a/dep -lradar 

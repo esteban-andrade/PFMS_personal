@@ -1,0 +1,72 @@
+\hypertarget{structAircraft}{}\section{Aircraft Struct Reference}
+\label{structAircraft}\index{Aircraft@{Aircraft}}
+\subsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{structPose}{Pose} \hyperlink{structAircraft_ae974de419f4b2570b0d4416e5e5aeac3}{pose}
+\item 
+std\+::vector$<$ \hyperlink{structGlobalOrd}{Global\+Ord} $>$ \hyperlink{structAircraft_a5bb8eeef2d86c60fb64bb4d6b55ac594}{trail}
+\item 
+double \hyperlink{structAircraft_a892016ca5094e6c5bf0fb79c94310e76}{linear\+\_\+velocity}
+\item 
+double \hyperlink{structAircraft_a2047bb7d3321d300cc3afb2753ff0f49}{angular\+\_\+velocity}
+\item 
+\hyperlink{classTimer}{Timer} \hyperlink{structAircraft_a256a704e2dbf859d95d4eb28b0e02aa3}{timer}
+\item 
+Aircraft\+State \hyperlink{structAircraft_a2dbb23441b3d3565f223de5658eb868f}{state}
+\item 
+\hyperlink{structPose}{Pose} \hyperlink{structAircraft_a350988ee89dd6631da4e991844a98975}{current\+Goal\+Pose}
+\item 
+\mbox{\Hypertarget{structAircraft_abd1deb6d69ea2e1ddf8fcc882092a728}\label{structAircraft_abd1deb6d69ea2e1ddf8fcc882092a728}} 
+\hyperlink{structPose}{Pose} {\bfseries previous\+Goal\+Pose}
+\end{DoxyCompactItemize}
+
+
+\subsection{Member Data Documentation}
+\mbox{\Hypertarget{structAircraft_a2047bb7d3321d300cc3afb2753ff0f49}\label{structAircraft_a2047bb7d3321d300cc3afb2753ff0f49}} 
+\index{Aircraft@{Aircraft}!angular\+\_\+velocity@{angular\+\_\+velocity}}
+\index{angular\+\_\+velocity@{angular\+\_\+velocity}!Aircraft@{Aircraft}}
+\subsubsection{\texorpdfstring{angular\+\_\+velocity}{angular\_velocity}}
+{\footnotesize\ttfamily double Aircraft\+::angular\+\_\+velocity}
+
+Angular velocity (radians/second). (+) Counter clockwise, (-\/) Clockwise. \mbox{\Hypertarget{structAircraft_a350988ee89dd6631da4e991844a98975}\label{structAircraft_a350988ee89dd6631da4e991844a98975}} 
+\index{Aircraft@{Aircraft}!current\+Goal\+Pose@{current\+Goal\+Pose}}
+\index{current\+Goal\+Pose@{current\+Goal\+Pose}!Aircraft@{Aircraft}}
+\subsubsection{\texorpdfstring{current\+Goal\+Pose}{currentGoalPose}}
+{\footnotesize\ttfamily \hyperlink{structPose}{Pose} Aircraft\+::current\+Goal\+Pose}
+
+Global goal position and orientation within the airspace. \mbox{\Hypertarget{structAircraft_a892016ca5094e6c5bf0fb79c94310e76}\label{structAircraft_a892016ca5094e6c5bf0fb79c94310e76}} 
+\index{Aircraft@{Aircraft}!linear\+\_\+velocity@{linear\+\_\+velocity}}
+\index{linear\+\_\+velocity@{linear\+\_\+velocity}!Aircraft@{Aircraft}}
+\subsubsection{\texorpdfstring{linear\+\_\+velocity}{linear\_velocity}}
+{\footnotesize\ttfamily double Aircraft\+::linear\+\_\+velocity}
+
+Linear velocity (metres/second) \mbox{\Hypertarget{structAircraft_ae974de419f4b2570b0d4416e5e5aeac3}\label{structAircraft_ae974de419f4b2570b0d4416e5e5aeac3}} 
+\index{Aircraft@{Aircraft}!pose@{pose}}
+\index{pose@{pose}!Aircraft@{Aircraft}}
+\subsubsection{\texorpdfstring{pose}{pose}}
+{\footnotesize\ttfamily \hyperlink{structPose}{Pose} Aircraft\+::pose}
+
+Global position and orientation within the airspace \mbox{\Hypertarget{structAircraft_a2dbb23441b3d3565f223de5658eb868f}\label{structAircraft_a2dbb23441b3d3565f223de5658eb868f}} 
+\index{Aircraft@{Aircraft}!state@{state}}
+\index{state@{state}!Aircraft@{Aircraft}}
+\subsubsection{\texorpdfstring{state}{state}}
+{\footnotesize\ttfamily Aircraft\+State Aircraft\+::state}
+
+\hyperlink{structAircraft}{Aircraft} state during operation. \mbox{\Hypertarget{structAircraft_a256a704e2dbf859d95d4eb28b0e02aa3}\label{structAircraft_a256a704e2dbf859d95d4eb28b0e02aa3}} 
+\index{Aircraft@{Aircraft}!timer@{timer}}
+\index{timer@{timer}!Aircraft@{Aircraft}}
+\subsubsection{\texorpdfstring{timer}{timer}}
+{\footnotesize\ttfamily \hyperlink{classTimer}{Timer} Aircraft\+::timer}
+
+Used to keep track of elapsed time. \mbox{\Hypertarget{structAircraft_a5bb8eeef2d86c60fb64bb4d6b55ac594}\label{structAircraft_a5bb8eeef2d86c60fb64bb4d6b55ac594}} 
+\index{Aircraft@{Aircraft}!trail@{trail}}
+\index{trail@{trail}!Aircraft@{Aircraft}}
+\subsubsection{\texorpdfstring{trail}{trail}}
+{\footnotesize\ttfamily std\+::vector$<$ \hyperlink{structGlobalOrd}{Global\+Ord} $>$ Aircraft\+::trail}
+
+To display where the aircraft has been 
+
+The documentation for this struct was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+/home/esteban/git/pfms-\/2020a-\/esteban-\/andrade/scratch/\+Assignment3/a3/dep/bionic/\hyperlink{bionic_2types_8h}{types.\+h}\end{DoxyCompactItemize}

@@ -1,0 +1,124 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../../laser.h
+ranger.h
+../../ranger.h
+
+../../ranger.h
+rangerinterface.h
+../../rangerinterface.h
+string
+-
+
+../../rangerinterface.h
+vector
+-
+
+../../sonar.h
+ranger.h
+../../ranger.h
+
+/home/esteban/git/pfms-2020a-esteban-andrade/scratch/unit test/A2-Unit_test/a2_test/mock/rangermocklaser.cpp
+rangermocklaser.h
+/home/esteban/git/pfms-2020a-esteban-andrade/scratch/unit test/A2-Unit_test/a2_test/mock/rangermocklaser.h
+
+/home/esteban/git/pfms-2020a-esteban-andrade/scratch/unit test/A2-Unit_test/a2_test/mock/rangermocklaser.h
+rangerinterface.h
+/home/esteban/git/pfms-2020a-esteban-andrade/scratch/unit test/A2-Unit_test/a2_test/mock/rangerinterface.h
+laser.h
+/home/esteban/git/pfms-2020a-esteban-andrade/scratch/unit test/A2-Unit_test/a2_test/mock/laser.h
+vector
+-
+
+/home/esteban/git/pfms-2020a-esteban-andrade/scratch/unit test/A2-Unit_test/a2_test/mock/rangermocksonar.cpp
+rangermocksonar.h
+/home/esteban/git/pfms-2020a-esteban-andrade/scratch/unit test/A2-Unit_test/a2_test/mock/rangermocksonar.h
+
+/home/esteban/git/pfms-2020a-esteban-andrade/scratch/unit test/A2-Unit_test/a2_test/mock/rangermocksonar.h
+rangerinterface.h
+/home/esteban/git/pfms-2020a-esteban-andrade/scratch/unit test/A2-Unit_test/a2_test/mock/rangerinterface.h
+sonar.h
+/home/esteban/git/pfms-2020a-esteban-andrade/scratch/unit test/A2-Unit_test/a2_test/mock/sonar.h
+vector
+-
+
+/home/esteban/git/pfms-2020a-esteban-andrade/scratch/unit test/A2-Unit_test/cell.cpp
+cell.h
+/home/esteban/git/pfms-2020a-esteban-andrade/scratch/unit test/A2-Unit_test/cell.h
+random
+-
+chrono
+-
+
+/home/esteban/git/pfms-2020a-esteban-andrade/scratch/unit test/A2-Unit_test/cell.h
+
+/home/esteban/git/pfms-2020a-esteban-andrade/scratch/unit test/A2-Unit_test/laser.cpp
+laser.h
+/home/esteban/git/pfms-2020a-esteban-andrade/scratch/unit test/A2-Unit_test/laser.h
+
+/home/esteban/git/pfms-2020a-esteban-andrade/scratch/unit test/A2-Unit_test/laser.h
+ranger.h
+/home/esteban/git/pfms-2020a-esteban-andrade/scratch/unit test/A2-Unit_test/ranger.h
+
+/home/esteban/git/pfms-2020a-esteban-andrade/scratch/unit test/A2-Unit_test/ranger.cpp
+ranger.h
+/home/esteban/git/pfms-2020a-esteban-andrade/scratch/unit test/A2-Unit_test/ranger.h
+iostream
+-
+random
+-
+chrono
+-
+
+/home/esteban/git/pfms-2020a-esteban-andrade/scratch/unit test/A2-Unit_test/ranger.h
+rangerinterface.h
+/home/esteban/git/pfms-2020a-esteban-andrade/scratch/unit test/A2-Unit_test/rangerinterface.h
+string
+-
+
+/home/esteban/git/pfms-2020a-esteban-andrade/scratch/unit test/A2-Unit_test/rangerfusion.cpp
+rangerfusion.h
+/home/esteban/git/pfms-2020a-esteban-andrade/scratch/unit test/A2-Unit_test/rangerfusion.h
+random
+-
+chrono
+-
+cmath
+-
+
+/home/esteban/git/pfms-2020a-esteban-andrade/scratch/unit test/A2-Unit_test/rangerfusion.h
+vector
+-
+rangerfusioninterface.h
+/home/esteban/git/pfms-2020a-esteban-andrade/scratch/unit test/A2-Unit_test/rangerfusioninterface.h
+rangerinterface.h
+/home/esteban/git/pfms-2020a-esteban-andrade/scratch/unit test/A2-Unit_test/rangerinterface.h
+cell.h
+/home/esteban/git/pfms-2020a-esteban-andrade/scratch/unit test/A2-Unit_test/cell.h
+
+/home/esteban/git/pfms-2020a-esteban-andrade/scratch/unit test/A2-Unit_test/rangerfusioninterface.h
+vector
+-
+rangerinterface.h
+/home/esteban/git/pfms-2020a-esteban-andrade/scratch/unit test/A2-Unit_test/rangerinterface.h
+cell.h
+/home/esteban/git/pfms-2020a-esteban-andrade/scratch/unit test/A2-Unit_test/cell.h
+
+/home/esteban/git/pfms-2020a-esteban-andrade/scratch/unit test/A2-Unit_test/rangerinterface.h
+vector
+-
+
+/home/esteban/git/pfms-2020a-esteban-andrade/scratch/unit test/A2-Unit_test/sonar.cpp
+sonar.h
+/home/esteban/git/pfms-2020a-esteban-andrade/scratch/unit test/A2-Unit_test/sonar.h
+
+/home/esteban/git/pfms-2020a-esteban-andrade/scratch/unit test/A2-Unit_test/sonar.h
+ranger.h
+/home/esteban/git/pfms-2020a-esteban-andrade/scratch/unit test/A2-Unit_test/ranger.h
+

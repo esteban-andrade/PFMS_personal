@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/home/esteban/git/pfms-2020a-esteban-andrade/scratch/week08/starter/opencv/access_pixels/build",
+  "command": "/usr/bin/g++-7   -isystem /usr/include/opencv  -g   -o CMakeFiles/access_pixels.dir/access_pixels.cpp.o -c /home/esteban/git/pfms-2020a-esteban-andrade/scratch/week08/starter/opencv/access_pixels/access_pixels.cpp",
+  "file": "/home/esteban/git/pfms-2020a-esteban-andrade/scratch/week08/starter/opencv/access_pixels/access_pixels.cpp"
+}
+]

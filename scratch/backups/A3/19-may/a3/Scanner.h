@@ -1,0 +1,42 @@
+#ifndef SCANNER_H
+#define SCANNER_H
+
+#include "simulator.h"
+#include "types.h"
+#include <cmath>
+#include <vector>
+
+class Scanner
+{
+private:
+    std::vector<std::pair<double, double>> base_scanner_;              //m and t
+    std::vector<std::pair<double, double>> friendly_scanner_;          // m and theta
+    std::vector<std::pair<double, double>> friendly_relative_to_base_; // m and theta
+    std::vector<RangeVelocityStamped> base_data_scan_;
+    std::vector<RangeBearingStamped> friendly_data_scan_;
+    std::vector<std::pair<double, double>> target_; //x an y
+    int bogie_index_;
+    std::vector<std::pair<double, double>> predicted_target_;
+    double velocity_object_;
+
+public:
+    Scanner();
+    ~Scanner();
+    void determineTarget(const std::shared_ptr<Simulator> &);
+    void friendlyRelariveBase(const std::shared_ptr<Simulator> &);
+    void baseScan(const std::shared_ptr<Simulator> &);
+    void airCraftScan(const std::shared_ptr<Simulator> &);
+    std::vector<RangeVelocityStamped> getBaseScanResults();
+    std::vector<RangeBearingStamped> getFriendlyScanResults();
+    std::vector<std::pair<double, double>> getTarget();
+    void resetData();
+    std::vector<std::pair<double, double>> getBaseScan();
+    std::vector<std::pair<double, double>> getFriendlyScan();
+    std::vector<std::pair<double, double>> getBaseToFriendly();
+    int getBogieIndex();
+    void predictTarget(const std::shared_ptr<Simulator> &);
+    double getObjectVelocity();
+    std::vector<std::pair<double, double>> getPredictedTarget();
+};
+
+#endif //SCANNER_H

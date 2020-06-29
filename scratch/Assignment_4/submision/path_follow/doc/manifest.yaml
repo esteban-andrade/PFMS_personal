@@ -1,0 +1,24 @@
+actions: []
+authors: Esteban Andrade <esgaanza98@gmail.com>
+brief: ''
+bugtracker: ''
+depends:
+- a4_setup
+- catkin
+- roscpp
+- std_msgs
+- message_runtime
+- sensor_msgs
+- rosbag
+- image_transport
+- a5_setup
+- message_generation
+- cv_bridge
+description: Path Following Option Assignment
+license: TODO
+maintainers: Esteban Andrade <Esteban.G.AndradeZambrano@student.uts.edu.au>
+msgs: []
+package_type: package
+repo_url: ''
+srvs: []
+url: ''

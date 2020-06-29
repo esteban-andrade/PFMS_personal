@@ -1,4 +1,4 @@
-#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
 
 #IncludeRegexScan: ^.*$
 
@@ -6,15 +6,15 @@
 
 #IncludeRegexTransform: 
 
-/home/user/git/pfms-2020a-esteban-andrade/tutorials/week03/examples/ex03/circle.cpp
+/home/esteban/git/pfms-2020a-esteban-andrade/tutorials/week03/examples/ex03/circle.cpp
 circle.h
-/home/user/git/pfms-2020a-esteban-andrade/tutorials/week03/examples/ex03/circle.h
+/home/esteban/git/pfms-2020a-esteban-andrade/tutorials/week03/examples/ex03/circle.h
 
-/home/user/git/pfms-2020a-esteban-andrade/tutorials/week03/examples/ex03/circle.h
+/home/esteban/git/pfms-2020a-esteban-andrade/tutorials/week03/examples/ex03/circle.h
 shape.h
-/home/user/git/pfms-2020a-esteban-andrade/tutorials/week03/examples/ex03/shape.h
+/home/esteban/git/pfms-2020a-esteban-andrade/tutorials/week03/examples/ex03/shape.h
 
-/home/user/git/pfms-2020a-esteban-andrade/tutorials/week03/examples/ex03/main.cpp
+/home/esteban/git/pfms-2020a-esteban-andrade/tutorials/week03/examples/ex03/main.cpp
 iostream
 -
 vector
@@ -22,23 +22,23 @@ vector
 sstream
 -
 rectangle.h
-/home/user/git/pfms-2020a-esteban-andrade/tutorials/week03/examples/ex03/rectangle.h
+/home/esteban/git/pfms-2020a-esteban-andrade/tutorials/week03/examples/ex03/rectangle.h
 circle.h
-/home/user/git/pfms-2020a-esteban-andrade/tutorials/week03/examples/ex03/circle.h
+/home/esteban/git/pfms-2020a-esteban-andrade/tutorials/week03/examples/ex03/circle.h
 
-/home/user/git/pfms-2020a-esteban-andrade/tutorials/week03/examples/ex03/rectangle.cpp
+/home/esteban/git/pfms-2020a-esteban-andrade/tutorials/week03/examples/ex03/rectangle.cpp
 rectangle.h
-/home/user/git/pfms-2020a-esteban-andrade/tutorials/week03/examples/ex03/rectangle.h
+/home/esteban/git/pfms-2020a-esteban-andrade/tutorials/week03/examples/ex03/rectangle.h
 
-/home/user/git/pfms-2020a-esteban-andrade/tutorials/week03/examples/ex03/rectangle.h
+/home/esteban/git/pfms-2020a-esteban-andrade/tutorials/week03/examples/ex03/rectangle.h
 shape.h
-/home/user/git/pfms-2020a-esteban-andrade/tutorials/week03/examples/ex03/shape.h
+/home/esteban/git/pfms-2020a-esteban-andrade/tutorials/week03/examples/ex03/shape.h
 
-/home/user/git/pfms-2020a-esteban-andrade/tutorials/week03/examples/ex03/shape.cpp
+/home/esteban/git/pfms-2020a-esteban-andrade/tutorials/week03/examples/ex03/shape.cpp
 shape.h
-/home/user/git/pfms-2020a-esteban-andrade/tutorials/week03/examples/ex03/shape.h
+/home/esteban/git/pfms-2020a-esteban-andrade/tutorials/week03/examples/ex03/shape.h
 
-/home/user/git/pfms-2020a-esteban-andrade/tutorials/week03/examples/ex03/shape.h
+/home/esteban/git/pfms-2020a-esteban-andrade/tutorials/week03/examples/ex03/shape.h
 string
 -
 cmath

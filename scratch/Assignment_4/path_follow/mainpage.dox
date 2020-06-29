@@ -1,0 +1,94 @@
+
+/** \mainpage
+
+@htmlinclude manifest.html
+
+@b 41012 Assignment 4: Project ROS Path Following
+
+@section Specifics 
+The  project is based on path following where different point will be sent and the robot will follow and analyse the points to check if they are reachable
+The starting configuration is the current position of the robot while the path provided uses geometry_msgs/PoseArray message for checkpoints (points on a path) in global coordinates.
+
+@subsection Description
+Write a series of components using the ROS CBSE framework that will process data originating from a range of sensors on a simulated robot. 
+Employ appropriate multi-threading and data structures to enable time synchronisationand subsequently interrogation of data which allow simple actions of a robotic platform. 
+Supply appropriate auto-generated documentation utilising inline source mark-up. Exploit unit testing framework with test cases evaluating code.
+
+@subsection  Rationale
+In a Mechatronics System, sensors produce data at varying rates. Decisions need to be made based on correctly associated data in near real-time. Threading and synchronisation are ways to ensure the system performs as intended, with guarantees on the responsiveness of the system to incoming data changes, processing constraints and system behaviour. 
+Functions that exploit the data require unit testing to ensure they behave correctly. Documentation of your own code allows other developers to utilise it as intended and anticipate outcomes, in the same fashion you use a number of APIs (ROS/OpenCV).
+
+@subsection Details
+ - Student Name: Esteban Andrade
+ - Student ID: 12824583
+ 
+@section usage Common Usage
+
+There are will be two nodes associated with the project. One node will be in charge of the selecting the points. The other one will process the points and will allow to steer the robot. There are two options for this. One that will be In spot rotation and Pure Pursuit. By default Pure pursuit will be off. The unit test is included 
+In order to follow the program run the following Commands
+
+- To start the Simulation run
+   \verbatim
+roslaunch a4_setup a4_setup.launch 
+  \endverbatim
+
+- To select the Points
+  \verbatim
+rosrun path_follow path_follow-select_path 
+  \endverbatim
+@note Use Left click to select the poses. Use right click to send the poses
+
+- To Visualise the Status of the points : completed points (blue), current point being completed(green) and  remaining points (red)
+  \verbatim
+ RQT and check /map_image/path_following
+  \endverbatim
+
+- To Start the analysis of the points and Navigation (Spot Turn)
+  \verbatim
+rosrun path_follow path_follow-plot_path 
+  \endverbatim
+
+- To Start the analysis of the points and Navigation (Pure Pursuit)
+  \verbatim
+rosrun path_follow path_follow-plot_path _purePursuit:=true
+  \endverbatim
+
+- To Start Unit Test
+  \verbatim
+rosrun path_follow path_follow-test 
+  \endverbatim
+
+
+@section Analysis
+There were several algorithms used in the project that were inplemented for the navigation, Points status analysis and Laser readings.
+
+@subsection Navigation
+For the navigation it is neccesary to estimate the angle of the target and orientate the robot towards that angle. If that angle is in the respective threshold it will go straight, else it will adjust. 
+Once it close to the target with in a specific threshold it will move to the next point. 
+For Pure pursuit the afle gamma was estimated and the value of the velocities(Both Angular and Linear) is adjusted using a gain and gamma.
+
+@subsection Laser
+For the laser Scanning it was neccesaty to contrain the field of view, in order to ensire it will cover the majority of the robot. Once the laser detect the a close target it will send a signal to notify the obstruction.
+With this readings we can avoid obstacles and steer the robot to go to a valid position in space. 
+
+@subsection Points
+In order to check the status of the point it was neccesary to make a line iterator and check if they can connect. This was done by detecting the black pixels in the image. Once it detect a black pixel in the trajectory. The path will be invalid
+Grey will be acceptable as the status is unknown and it can become either true or false as the robot scans the enviroment. IF the point is invalid it will be removed and it will move to the next one
+
+@subsection Tests
+The code was tested using GTEST for this two images were used in order to check the connectivity of the points and verify if they pass or fail.
+Also two rosbags were used in order to check the laser readings to detect obstacles. 
+
+@subsection behaviour Expected behaviour
+From the code it is expected that when poses are selected with select_path it will send the poses to plot_path and it will display a raw image  of the selected target poses. On this node and refering to rqt , on another thread it will check whether the target point is free or occupied or unknown. If the status is occupied it will pop that element and move to the next one. 
+The colours of the poins will be based on the status either green for the current target point, blue for the completed points and red for the remaining one. 
+Additinally there will be two ways of navigation. On each one make the robot move to the point. Once the robot is in a certain tolorance close to the point it will pop that element and move to the next one. 
+If it detects an obstacle in that path it will pop that element and move to the next one after adjusting the robot position. 
+Furthermore, there will be two possible ways for navigation either on the spot turns or pure Pursuit. Based on this the robot will have a different navigation behaviour as it will depend on the angle gamma for pure pursuit. 
+
+
+@note
+The nodes are subscribed to robot_0; These can be remmaped using rosrun for the corresponding nodes. Please check Documentation for remmaping the topics
+
+*/
+

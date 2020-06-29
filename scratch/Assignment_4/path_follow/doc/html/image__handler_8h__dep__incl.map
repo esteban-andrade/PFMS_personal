@@ -1,0 +1,8 @@
+<map id="image_handler.h" name="image_handler.h">
+<area shape="rect" id="node2" href="$path__generation_8h.html" title="This Class was used with multiple intention that include Receive the Poses. Analyse the poses and nav..." alt="" coords="176,80,301,107"/>
+<area shape="rect" id="node6" href="$path__selection__handler_8h.html" title="This class is the one used for selecting the points in an OG map to be sent to be analysed..." alt="" coords="327,80,494,107"/>
+<area shape="rect" id="node3" href="$path__generation_8cpp.html" title="Class that will analyse the given poses and navigate the robot. " alt="" coords="5,155,144,181"/>
+<area shape="rect" id="node4" href="$path__selection__main_8cpp.html" title="Main function used to start the node path_follow_select_path. This will allow to select the points in..." alt="" coords="327,155,494,181"/>
+<area shape="rect" id="node5" href="$plot__path__main_8cpp.html" title="Main function that will start the node path_follow_draw_path. This node will have 3 threads for multi..." alt="" coords="169,155,303,181"/>
+<area shape="rect" id="node7" href="$path__selection__handler_8cpp.html" title="Class that will manage and send the selected poses. " alt="" coords="518,155,698,181"/>
+</map>

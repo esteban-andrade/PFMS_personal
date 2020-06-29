@@ -1,7 +1,0 @@
-/home/user/git/pfms-2020a-esteban-andrade/tutorials/week04/examples/ex03/build/CMakeFiles/install.dir
-/home/user/git/pfms-2020a-esteban-andrade/tutorials/week04/examples/ex03/build/CMakeFiles/list_install_components.dir
-/home/user/git/pfms-2020a-esteban-andrade/tutorials/week04/examples/ex03/build/CMakeFiles/rebuild_cache.dir
-/home/user/git/pfms-2020a-esteban-andrade/tutorials/week04/examples/ex03/build/CMakeFiles/shapes.dir
-/home/user/git/pfms-2020a-esteban-andrade/tutorials/week04/examples/ex03/build/CMakeFiles/edit_cache.dir
-/home/user/git/pfms-2020a-esteban-andrade/tutorials/week04/examples/ex03/build/CMakeFiles/install/strip.dir
-/home/user/git/pfms-2020a-esteban-andrade/tutorials/week04/examples/ex03/build/CMakeFiles/install/local.dir

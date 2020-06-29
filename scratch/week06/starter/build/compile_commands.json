@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/home/esteban/git/pfms-2020a-esteban-andrade/scratch/week06/starter/build",
+  "command": "/usr/bin/clang++-6.0    -std=c++11 -pthread -g   -o CMakeFiles/test_threading.dir/main.cpp.o -c /home/esteban/git/pfms-2020a-esteban-andrade/scratch/week06/starter/main.cpp",
+  "file": "/home/esteban/git/pfms-2020a-esteban-andrade/scratch/week06/starter/main.cpp"
+}
+]

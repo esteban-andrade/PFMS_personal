@@ -1,0 +1,1 @@
+/usr/bin/c++   -std=c++11  -rdynamic CMakeFiles/pureVirtualTests.dir/test_pure_virtual.cpp.o  -o pureVirtualTests lib/libgtest.a lib/libgtest_main.a libstudent_lib.a lib/libgtest.a -lpthread 

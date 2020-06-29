@@ -1,0 +1,5 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node1" href="$classImageHandler.html" title="These class will allow to inherit different parameters that will be used for image and poses handling..." alt="" coords="5,31,108,57"/>
+<area shape="rect" id="node2" href="$classPathGeneration.html" title="This Class was used with multiple intention that include Receive the Poses. Analyse the poses and nav..." alt="" coords="156,5,268,32"/>
+<area shape="rect" id="node3" href="$classPathSelection.html" title="This class is the one used for selecting the points in an OG map to be sent to be analysed..." alt="" coords="161,56,263,83"/>
+</map>

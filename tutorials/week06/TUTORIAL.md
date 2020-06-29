@@ -17,9 +17,9 @@ Hint: _To ensure synchronization use std::mutex and std::lock_guard_
 Multi-Thread Access Data - Ex02
 -------------------------
 
-Three threads should access same class
+Three threads should access same struct
 
-Class contains:
+Struct contains:
 * string name
 * vector of doubles
 
@@ -33,4 +33,10 @@ Thread 3
 Questions:
 * How best to protect data?
 * What should a efficient implementation do?
+
+Multi-Thread Access Data - Ex03
+-------------------------
+
+Instead of a strcut, use a class. Apart from the member variables, the class should also contain member functions that handle the data.
+The main, should have no knowledge of mutexes, as they can be embeded in the class itself.
 

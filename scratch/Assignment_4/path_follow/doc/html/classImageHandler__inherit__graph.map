@@ -1,0 +1,4 @@
+<map id="ImageHandler" name="ImageHandler">
+<area shape="rect" id="node2" href="$classPathGeneration.html" title="This Class was used with multiple intention that include Receive the Poses. Analyse the poses and nav..." alt="" coords="5,80,117,107"/>
+<area shape="rect" id="node3" href="$classPathSelection.html" title="This class is the one used for selecting the points in an OG map to be sent to be analysed..." alt="" coords="142,80,245,107"/>
+</map>

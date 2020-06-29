@@ -1,0 +1,213 @@
+\hypertarget{classNavigation}{}\section{Navigation Class Reference}
+\label{classNavigation}\index{Navigation@{Navigation}}
+
+
+The \hyperlink{classNavigation}{Navigation} class will inherit from \hyperlink{classNavigationInterface}{Navigation\+Interface} and will allow to control the friendly and elaborate pure pursuit.  
+
+
+
+
+{\ttfamily \#include $<$Navigation.\+h$>$}
+
+Inheritance diagram for Navigation\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{classNavigation}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classNavigation_a81fdffdefe46340da5fa6c570066b42b}{Navigation} ()
+\begin{DoxyCompactList}\small\item\em Construct a new \hyperlink{classNavigation}{Navigation} object. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classNavigation_addd4022d716df48f4e55a1db69361ba7}\label{classNavigation_addd4022d716df48f4e55a1db69361ba7}} 
+\hyperlink{classNavigation_addd4022d716df48f4e55a1db69361ba7}{$\sim$\+Navigation} ()
+\begin{DoxyCompactList}\small\item\em Destroy the \hyperlink{classNavigation}{Navigation} object. \end{DoxyCompactList}\item 
+double \hyperlink{classNavigation_ac417c0408968151493e5dccefae38bc7}{get\+Distance\+From\+Base} (\hyperlink{structPose}{Pose})
+\begin{DoxyCompactList}\small\item\em Get the Distance From Base object relative to the base. \end{DoxyCompactList}\item 
+void \hyperlink{classNavigation_a91cfc3f3fa511684efd25c7a03a9a7c6}{navigate} (\hyperlink{structPose}{Pose} \&, \hyperlink{structPose}{Pose})
+\begin{DoxyCompactList}\small\item\em Wll navigate in the given airspace and set values to verify that the friendly in the airspace. \end{DoxyCompactList}\item 
+double \hyperlink{classNavigation_a18d539b159c80fd2d1af2021ad6d3947}{get\+Orientation} (\hyperlink{structPose}{Pose}, \hyperlink{structPose}{Pose})
+\begin{DoxyCompactList}\small\item\em Get the Orientation object of the aircraft in space. \end{DoxyCompactList}\item 
+double \hyperlink{classNavigation_a9aef484e223556a207734159612fb2c9}{get\+Linear\+Velocity} ()
+\begin{DoxyCompactList}\small\item\em Get the Linear Velocity object of aircraft. \end{DoxyCompactList}\item 
+double \hyperlink{classNavigation_a412ff177cefb3c4ddaf87daab3fe4c4c}{get\+Angular\+Speed} ()
+\begin{DoxyCompactList}\small\item\em Get the Angular Speed object of aircraft. \end{DoxyCompactList}\item 
+\hyperlink{structPose}{Pose} \hyperlink{classNavigation_af82fc8cc1546fa2a54e8a8651c1adc80}{get\+Current\+Pose} ()
+\begin{DoxyCompactList}\small\item\em Get the Current \hyperlink{structPose}{Pose} object in space. \end{DoxyCompactList}\item 
+bool \hyperlink{classNavigation_a4d4d752128c5069db8fcfd969dc22909}{is\+Friendly\+In\+Air\+Space} ()
+\begin{DoxyCompactList}\small\item\em will be analysed in friendly aircraft is within the airspace \end{DoxyCompactList}\item 
+void \hyperlink{classNavigation_a4f6dcaba60a955746a18760fdb418490}{pure\+Pursuit} (const \hyperlink{structRangeBearingStamped}{Range\+Bearing\+Stamped} \&, \hyperlink{structPose}{Pose})
+\begin{DoxyCompactList}\small\item\em The pure pursuit algorithm will compute the angle gama in order to chase the bogies. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+The \hyperlink{classNavigation}{Navigation} class will inherit from \hyperlink{classNavigationInterface}{Navigation\+Interface} and will allow to control the friendly and elaborate pure pursuit. 
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classNavigation_a81fdffdefe46340da5fa6c570066b42b}\label{classNavigation_a81fdffdefe46340da5fa6c570066b42b}} 
+\index{Navigation@{Navigation}!Navigation@{Navigation}}
+\index{Navigation@{Navigation}!Navigation@{Navigation}}
+\subsubsection{\texorpdfstring{Navigation()}{Navigation()}}
+{\footnotesize\ttfamily Navigation\+::\+Navigation (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Construct a new \hyperlink{classNavigation}{Navigation} object. 
+
+\begin{DoxyNote}{Note}
+Will set angular speed to zero and linear velocity to maximum, Will set to true friendly\+\_\+inside\+\_\+ boolean 
+\end{DoxyNote}
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{classNavigation_a412ff177cefb3c4ddaf87daab3fe4c4c}\label{classNavigation_a412ff177cefb3c4ddaf87daab3fe4c4c}} 
+\index{Navigation@{Navigation}!get\+Angular\+Speed@{get\+Angular\+Speed}}
+\index{get\+Angular\+Speed@{get\+Angular\+Speed}!Navigation@{Navigation}}
+\subsubsection{\texorpdfstring{get\+Angular\+Speed()}{getAngularSpeed()}}
+{\footnotesize\ttfamily double Navigation\+::get\+Angular\+Speed (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+Get the Angular Speed object of aircraft. 
+
+\begin{DoxyReturn}{Returns}
+double Angular Speed in rad/s 
+\end{DoxyReturn}
+
+
+Implements \hyperlink{classNavigationInterface_a9fda3919f625414f9fe68dd03deb3130}{Navigation\+Interface}.
+
+\mbox{\Hypertarget{classNavigation_af82fc8cc1546fa2a54e8a8651c1adc80}\label{classNavigation_af82fc8cc1546fa2a54e8a8651c1adc80}} 
+\index{Navigation@{Navigation}!get\+Current\+Pose@{get\+Current\+Pose}}
+\index{get\+Current\+Pose@{get\+Current\+Pose}!Navigation@{Navigation}}
+\subsubsection{\texorpdfstring{get\+Current\+Pose()}{getCurrentPose()}}
+{\footnotesize\ttfamily \hyperlink{structPose}{Pose} Navigation\+::get\+Current\+Pose (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+Get the Current \hyperlink{structPose}{Pose} object in space. 
+
+\begin{DoxyReturn}{Returns}
+\hyperlink{structPose}{Pose} of aircraft 
+\end{DoxyReturn}
+
+
+Implements \hyperlink{classNavigationInterface_ab37e23f5f838c02d7768d2f02b1fe429}{Navigation\+Interface}.
+
+\mbox{\Hypertarget{classNavigation_ac417c0408968151493e5dccefae38bc7}\label{classNavigation_ac417c0408968151493e5dccefae38bc7}} 
+\index{Navigation@{Navigation}!get\+Distance\+From\+Base@{get\+Distance\+From\+Base}}
+\index{get\+Distance\+From\+Base@{get\+Distance\+From\+Base}!Navigation@{Navigation}}
+\subsubsection{\texorpdfstring{get\+Distance\+From\+Base()}{getDistanceFromBase()}}
+{\footnotesize\ttfamily double Navigation\+::get\+Distance\+From\+Base (\begin{DoxyParamCaption}\item[{\hyperlink{structPose}{Pose}}]{Pose }\end{DoxyParamCaption})}
+
+
+
+Get the Distance From Base object relative to the base. 
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\tt in}  & {\em \hyperlink{structPose}{Pose}} & of the airscraft \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+double of tangetial distance 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classNavigation_a9aef484e223556a207734159612fb2c9}\label{classNavigation_a9aef484e223556a207734159612fb2c9}} 
+\index{Navigation@{Navigation}!get\+Linear\+Velocity@{get\+Linear\+Velocity}}
+\index{get\+Linear\+Velocity@{get\+Linear\+Velocity}!Navigation@{Navigation}}
+\subsubsection{\texorpdfstring{get\+Linear\+Velocity()}{getLinearVelocity()}}
+{\footnotesize\ttfamily double Navigation\+::get\+Linear\+Velocity (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+Get the Linear Velocity object of aircraft. 
+
+\begin{DoxyReturn}{Returns}
+double Linear Velocity in m/s 
+\end{DoxyReturn}
+
+
+Implements \hyperlink{classNavigationInterface_aa5c9df2654078875f72368e919e28432}{Navigation\+Interface}.
+
+\mbox{\Hypertarget{classNavigation_a18d539b159c80fd2d1af2021ad6d3947}\label{classNavigation_a18d539b159c80fd2d1af2021ad6d3947}} 
+\index{Navigation@{Navigation}!get\+Orientation@{get\+Orientation}}
+\index{get\+Orientation@{get\+Orientation}!Navigation@{Navigation}}
+\subsubsection{\texorpdfstring{get\+Orientation()}{getOrientation()}}
+{\footnotesize\ttfamily double Navigation\+::get\+Orientation (\begin{DoxyParamCaption}\item[{\hyperlink{structPose}{Pose}}]{Pose\+\_\+reference,  }\item[{\hyperlink{structPose}{Pose}}]{Pose }\end{DoxyParamCaption})}
+
+
+
+Get the Orientation object of the aircraft in space. 
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\tt in}  & {\em \hyperlink{structPose}{Pose}} & reference pose \\
+\hline
+\mbox{\tt in}  & {\em \hyperlink{structPose}{Pose}} & actual given pose \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+double of orientation 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classNavigation_a4d4d752128c5069db8fcfd969dc22909}\label{classNavigation_a4d4d752128c5069db8fcfd969dc22909}} 
+\index{Navigation@{Navigation}!is\+Friendly\+In\+Air\+Space@{is\+Friendly\+In\+Air\+Space}}
+\index{is\+Friendly\+In\+Air\+Space@{is\+Friendly\+In\+Air\+Space}!Navigation@{Navigation}}
+\subsubsection{\texorpdfstring{is\+Friendly\+In\+Air\+Space()}{isFriendlyInAirSpace()}}
+{\footnotesize\ttfamily bool Navigation\+::is\+Friendly\+In\+Air\+Space (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+will be analysed in friendly aircraft is within the airspace 
+
+\begin{DoxyReturn}{Returns}
+true friendly aircraft is inside the airspace 
+
+false friendly aircraft is not inside the airspace 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classNavigation_a91cfc3f3fa511684efd25c7a03a9a7c6}\label{classNavigation_a91cfc3f3fa511684efd25c7a03a9a7c6}} 
+\index{Navigation@{Navigation}!navigate@{navigate}}
+\index{navigate@{navigate}!Navigation@{Navigation}}
+\subsubsection{\texorpdfstring{navigate()}{navigate()}}
+{\footnotesize\ttfamily void Navigation\+::navigate (\begin{DoxyParamCaption}\item[{\hyperlink{structPose}{Pose} \&}]{friendly\+\_\+simulator,  }\item[{\hyperlink{structPose}{Pose}}]{friendly }\end{DoxyParamCaption})}
+
+
+
+Wll navigate in the given airspace and set values to verify that the friendly in the airspace. 
+
+\begin{DoxyNote}{Note}
+Will Consider a threshold angle and the position in space with a given buffer in order to steer the aircraft and avoid leaving the airspace Will keep track of bolean of friendly\+\_\+inside\+\_\+ 
+\end{DoxyNote}
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\tt in}  & {\em \hyperlink{structPose}{Pose}} & pass a reference pose for analysis \\
+\hline
+\mbox{\tt in}  & {\em \hyperlink{structPose}{Pose}} & actual pose of the aircraft \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classNavigation_a4f6dcaba60a955746a18760fdb418490}\label{classNavigation_a4f6dcaba60a955746a18760fdb418490}} 
+\index{Navigation@{Navigation}!pure\+Pursuit@{pure\+Pursuit}}
+\index{pure\+Pursuit@{pure\+Pursuit}!Navigation@{Navigation}}
+\subsubsection{\texorpdfstring{pure\+Pursuit()}{purePursuit()}}
+{\footnotesize\ttfamily void Navigation\+::pure\+Pursuit (\begin{DoxyParamCaption}\item[{const \hyperlink{structRangeBearingStamped}{Range\+Bearing\+Stamped} \&}]{bogie\+\_\+target,  }\item[{\hyperlink{structPose}{Pose}}]{friendly }\end{DoxyParamCaption})}
+
+
+
+The pure pursuit algorithm will compute the angle gama in order to chase the bogies. 
+
+\begin{DoxyNote}{Note}
+This also implements a PI controller to facilitate the steering of the friendly 
+\end{DoxyNote}
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\tt in}  & {\em \hyperlink{structRangeBearingStamped}{Range\+Bearing\+Stamped}} & in order track the angle of the bogie \\
+\hline
+\mbox{\tt in}  & {\em \hyperlink{structPose}{Pose}} & in order to track the position of the friendly as the new reference \\
+\hline
+\end{DoxyParams}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+/home/esteban/git/pfms-\/2020a-\/esteban-\/andrade/scratch/\+Assignment3/a3/\hyperlink{Navigation_8h}{Navigation.\+h}\item 
+/home/esteban/git/pfms-\/2020a-\/esteban-\/andrade/scratch/\+Assignment3/a3/Navigation.\+cpp\end{DoxyCompactItemize}

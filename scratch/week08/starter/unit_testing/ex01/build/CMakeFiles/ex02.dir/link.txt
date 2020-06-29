@@ -1,0 +1,1 @@
+/usr/bin/c++   -std=c++11  -rdynamic CMakeFiles/ex02.dir/main.cpp.o  -o ex02 libsensor_lib.a 

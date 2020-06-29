@@ -19,6 +19,10 @@ int main()
 
         // Create a rectangle object
         Circle circle;
+        std::cout << circle.print() << std::endl;
+        std::cout << circle.print() << std::endl;
+        std::cout << circle.print() << std::endl;
+        std::cout << circle.print() << std::endl;
 
         // Set the values of the sides
         std::cout << " The Circle test Radius is: " << rad << std::endl;
@@ -88,7 +92,7 @@ int main()
     std::cout << "How many Circles would you like to generate : ";
 
     bool inRange = false;
-    while(!inRange)
+    while (!inRange)
     {
         while (!(std::cin >> num_circles))
         {

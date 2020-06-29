@@ -1,1 +1,0 @@
-/usr/bin/g++-5    -std=c++11 -g   CMakeFiles/shape_line_test.dir/main.cpp.o CMakeFiles/shape_line_test.dir/line.cpp.o CMakeFiles/shape_line_test.dir/analysis.cpp.o  -o shape_line_test -rdynamic libshapes.a 

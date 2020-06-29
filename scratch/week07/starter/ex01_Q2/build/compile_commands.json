@@ -1,0 +1,12 @@
+[
+{
+  "directory": "/home/esteban/git/pfms-2020a-esteban-andrade/scratch/week07/starter/ex01_Q2/build",
+  "command": "/usr/bin/g++-7    -std=c++11 -pthread -g   -o CMakeFiles/example.dir/main.cpp.o -c /home/esteban/git/pfms-2020a-esteban-andrade/scratch/week07/starter/ex01_Q2/main.cpp",
+  "file": "/home/esteban/git/pfms-2020a-esteban-andrade/scratch/week07/starter/ex01_Q2/main.cpp"
+},
+{
+  "directory": "/home/esteban/git/pfms-2020a-esteban-andrade/scratch/week07/starter/ex01_Q2/build",
+  "command": "/usr/bin/g++-7    -std=c++11 -pthread -g   -o CMakeFiles/example.dir/DataProcessing.cpp.o -c /home/esteban/git/pfms-2020a-esteban-andrade/scratch/week07/starter/ex01_Q2/DataProcessing.cpp",
+  "file": "/home/esteban/git/pfms-2020a-esteban-andrade/scratch/week07/starter/ex01_Q2/DataProcessing.cpp"
+}
+]

@@ -1,0 +1,3 @@
+/home/esteban/git/pfms-2020a-esteban-andrade/scratch/backups/A3/didnt_work/build/CMakeFiles/rebuild_cache.dir
+/home/esteban/git/pfms-2020a-esteban-andrade/scratch/backups/A3/didnt_work/build/CMakeFiles/a3_simulator_exe.dir
+/home/esteban/git/pfms-2020a-esteban-andrade/scratch/backups/A3/didnt_work/build/CMakeFiles/edit_cache.dir

@@ -1,7 +1,0 @@
-/home/user/git/pfms-2020a-esteban-andrade/scratch/week04/starter/shape_lib/build/CMakeFiles/install.dir
-/home/user/git/pfms-2020a-esteban-andrade/scratch/week04/starter/shape_lib/build/CMakeFiles/list_install_components.dir
-/home/user/git/pfms-2020a-esteban-andrade/scratch/week04/starter/shape_lib/build/CMakeFiles/rebuild_cache.dir
-/home/user/git/pfms-2020a-esteban-andrade/scratch/week04/starter/shape_lib/build/CMakeFiles/shapes_library.dir
-/home/user/git/pfms-2020a-esteban-andrade/scratch/week04/starter/shape_lib/build/CMakeFiles/install/strip.dir
-/home/user/git/pfms-2020a-esteban-andrade/scratch/week04/starter/shape_lib/build/CMakeFiles/install/local.dir
-/home/user/git/pfms-2020a-esteban-andrade/scratch/week04/starter/shape_lib/build/CMakeFiles/edit_cache.dir

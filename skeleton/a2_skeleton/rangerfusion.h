@@ -14,6 +14,20 @@ public:
   //See rangerfusioninterface.h for more information
 
 
+  // Accepts container of rangers
+  void setRangers(std::vector<RangerInterface *> rangers);
+
+  // Accepts container of cells
+  void setCells(std::vector<Cell *> cells);
+
+  // Grab data and fuse
+  void grabAndFuseData();
+
+  // Returns a container of raw data range readings
+  virtual std::vector<std::vector<double>> getRawRangeData();
+
+
+
 private:
   //This is to cater for getRawRangeData (which generates the raw data))
   std::vector<std::vector<double>> data_;
